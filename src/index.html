@@ -5,20 +5,47 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Трип</title>
 </head>
-<body class="index">
-    <h1>Трип</h1>
-    <h2>Трип</h2>
-    <h3>Трип</h3>
-    <h4>Трип</h4>
-    <h5>Трип</h5>
-    
-    <!-- <h2>Разделы</h2>
-    <ul>
-        <li><a href="trips.html">Путешествия</a></li>
-        <li><a href="Merch.html">Мерч</a></li>
-        <li><a href="Advices.html">Советы</a></li>
-        <li><a href="About.html">О нас</a></li>
-        <li><a href="Fun.html">Приколы</a></li>
-    </ul> -->
+<body class="zglushka">
+    <div class="menu">
+       <div class="navigation">
+            <!-- кнопка промо -->
+            <div id="Active" class="promo-b">
+                <a href="index.html">Промо</a>
+            </div>
+            <!-- кнопка о нас -->
+            <div id="inactive" class="about-b">
+                <a href="about.html">О нас</a>
+            </div>
+            <!-- кнопка публикация -->
+            <div id="inactive" class="article-b">
+                <a href="article.html">Публикация</a>
+            </div>
+         </div>
+        <p class="logo">ТРИП</p>
+        <!-- кнопки соцсетей -->
+        <div class="socials">
+            <div class="link">
+                <a href="">telegram<img src="images/Frame 5.svg" alt=""></a>
+            </div>
+            <div class="link">
+                <a href="">vk<img src="images/Frame 5.svg" alt=""></a>
+            </div>
+            <div class="link">
+                <a href="">youtube<img src="images/Frame 5.svg" alt=""></a>
+            </div>
+        </div>
+    </div>
+
+    <!-- форма -->
+    <div class="forma">
+        <div class="round-forma">
+            <form id="my-form" action="https://formspree.io/f/mleyzkzq" method="POST">
+                <label>Email:</label>
+                <input type="email" name="email" />
+                <button id="my-form-button">Отправить</button>
+                <p id="my-form-status"></p>
+            </form>
+        </div>
+    </div>
 </body>
 </html>

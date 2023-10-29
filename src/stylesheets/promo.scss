@@ -1,0 +1,89 @@
+body {
+    background: var(--white);
+    font-family: ALS Savage;
+    font-style: normal;
+}
+.menu {
+    display: flex;
+    text-align: center;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-between;
+    padding: 2.5vw 2.5vw 0vw 2.5vw;
+}
+.navigation {
+    display: flex;
+    flex-direction: row;
+    gap: 1.25vw;
+
+}
+.socials {
+    display: flex;
+    flex-direction: row;
+    gap: 1.875vw;
+}
+.promo-b {
+    width: 7.891vw;
+}
+a {
+    text-decoration:none;
+    color: var(--black);
+    font-weight: 300;
+    font-size: 1.484vw;
+}
+#Active, #inactive {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 3.125vw;
+    height: 3.906vw;
+}
+#Active {
+    background: var(--green);
+}
+#inactive {
+    background: var(--white);
+    border: 0.078vw solid var(--black);
+}
+.about-b {
+    width: 7.422vw;
+}
+.article-b {
+    width: 11.563vw;
+}
+.link img{
+    padding-left: 0.625vw;
+}
+.menu p {
+    font-size: 1.484vw;
+    font-weight: 600;
+    margin-right: 8.6vw;
+    text-align: center;
+}
+.link img {
+    height: 1.094vw;
+    width: 0.781vw;
+}
+#inactive:hover {
+    background: var(--green);
+    border: 0.078vw solid var(--green);
+}
+
+// круг-форма
+.forma {
+    top: 35.625vw;
+    position: relative;
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-between;
+}
+.round-forma {
+    background: var(--green);
+    height: 40.469vw;
+    width: 40.469vw;
+    border-radius: 40.469vw;
+}
