@@ -7,7 +7,6 @@ body {
     display: flex;
     text-align: center;
     flex-direction: row;
-    justify-content: center;
     align-items: center;
     justify-content: space-between;
     padding: 2.5vw 2.5vw 0vw 2.5vw;
@@ -79,11 +78,76 @@ a {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    justify-content: space-between;
 }
 .round-forma {
+    display: flex;
     background: var(--green);
     height: 40.469vw;
     width: 40.469vw;
     border-radius: 40.469vw;
+    justify-content: center;
+}
+form {
+    top: 7.188vw;
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+.email {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0.781vw;
+}
+label {
+    font-size: 1.641vw;
+    font-weight: 400;
+}
+input {
+    width: 23.594vw;
+    height: 1.719vw;
+    border: none;
+    background: var(--green);
+}
+.button {
+    top: 4.6vw;
+    position: relative;
+}
+button {
+    height: 15.234vw;
+    width: 15.234vw;
+    border-radius: 15.234vw;
+    background: var(--green);
+    border: 0.078vw solid var(--black);
+}
+button p {
+    text-align: center;
+    font-size: 1.484vw;
+    font-weight: 300;
+    font-family: ALS Savage;
+    font-style: normal;
+    line-height: 115%;
+}
+button:hover {
+    background: #C8E605;
+    border: 0.078vw solid #C8E605;
+}
+#my-form-status {
+    top: 1.6vw;
+    position: relative;
+}
+.back {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+.back h1 {
+    color: var(--black);
+    text-align: center;
+    font-size: 7.500vw;
+    font-weight: 400;
 }

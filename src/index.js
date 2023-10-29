@@ -13,19 +13,19 @@ var form = document.getElementById("my-form");
               }
             }).then(response => {
               if (response.ok) {
-                status.innerHTML = "Thanks for your submission!";
+                status.innerHTML = "Спасибо за подписку!";
                 form.reset()
               } else {
                 response.json().then(data => {
                   if (Object.hasOwn(data, 'errors')) {
                     status.innerHTML = data["errors"].map(error => error["message"]).join(", ")
                   } else {
-                    status.innerHTML = "Oops! There was a problem submitting your form"
+                    status.innerHTML = "Ой! Что-то не так"
                   }
                 })
               }
             }).catch(error => {
-              status.innerHTML = "Oops! There was a problem submitting your form"
+              status.innerHTML = "Ой! Что-то не так"
             });
           }
           form.addEventListener("submit", handleSubmit)
