@@ -2,4 +2,33 @@
 @import 'stylesheets/fonts.scss';
 @import 'stylesheets/vars.scss';
 @import 'stylesheets/article.scss';
-@import url('https://fonts.googleapis.com/css2?family=Geologica:wght@100;200;400;700&display=swap');
+@font-face {
+    font-family: 'ALS Savage';
+    src: url('fonts/ALS_Savage_Black_1.0.otf') format("opentype");
+    font-weight: 900;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'ALS Savage';
+    src: url('fonts/ALS_Savage_Bold_1.0.otf') format("opentype");
+    font-weight: 800;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'ALS Savage';
+    src: url('fonts/ALS_Savage_Medium_1.0.otf') format("opentype");
+    font-weight: 600;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'ALS Savage';
+    src: url('fonts/ALS_Savage_Regular_1.0.otf') format("opentype");
+    font-weight: 400;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'ALS Savage';
+    src: url('fonts/ALS_Savage_Light_1.0.otf') format("opentype");
+    font-weight: 300;
+    font-style: normal;
+}
