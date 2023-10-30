@@ -3,6 +3,7 @@
 @import 'stylesheets/vars.scss';
 @import 'stylesheets/promo.scss';
 @import 'stylesheets/article.scss';
+@import 'stylesheets/about.scss';
 @font-face {
     font-family: 'ALS Savage';
     src: url('fonts/ALS_Savage_Black_1.0.otf') format("opentype");

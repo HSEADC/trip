@@ -137,6 +137,13 @@ module.exports = {
       filename: './article.html'
     }),
 
+    // about
+    new HtmlWebpackPlugin({
+      template: './src/about.html',
+      filename: './about.html'
+    }),
+
+
     // Partials
     new HtmlWebpackPartialsPlugin([
       {
