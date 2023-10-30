@@ -1,12 +1,5 @@
-# Static Site Boilerplate
+# Трип
 
-## How to start
-
-Clone the repository, install packages, start
-
-```
-git clone https://github.com/ZakharDay/static-site-boilerplate.git
-cd static-site-boilerplate
-yarn
-yarn start
-```
+Трип – это цифровой сервис об однодневных путешествиях.
+Основная задача сервиса заключается в предоставлении
+информации о различных местах и активностях, которые можно посетить и сделать за один день.
