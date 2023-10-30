@@ -72,7 +72,7 @@ a {
 // круг-форма
 .forma {
     width: 100%;
-    top: 35.625vw;
+    top: 28.625vw;
     position: absolute;
     display: flex;
     text-align: center;
@@ -141,7 +141,7 @@ button:hover {
     position: relative;
 }
 .back {
-    top: 23.3vw;
+    top: 16.3vw;
     display: flex;
     text-align: center;
     justify-content: center;
@@ -153,17 +153,18 @@ button:hover {
 }
 .back-2 {
     width: 13vw;
-    top: 16.8vw;
-    left: 60vw;
+    top: 9.6vw;
+    left: 57vw;
     position: relative;
     color: var(--black);
     font-size: 1.094vw;
     font-weight: 300;
     line-height: 115%;
-    text-align: center;
+    text-align: left;
+
 }
 .front {
-    top: 17.3vw;
+    top: 10.3vw;
     display: flex;
     text-align: center;
     justify-content: center;
@@ -176,7 +177,7 @@ button:hover {
 .rotate-circle {
     overflow: hidden;
     width: 100%;
-    top: 16.563vw;
+    top: 9.563vw;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -190,4 +191,19 @@ button:hover {
 @keyframes rotatee {
     0% {transform: rotate(0deg);}
     100% {transform: rotate(360deg);}
+}
+.footer {
+    position: relative;
+    top: 62vw;
+    display: flex;
+    text-align: center;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 2.5vw 2.5vw 2.5vw 2.5vw;
+}
+.footer p {
+    color: var(--black);
+    font-weight: 300;
+    font-size: 1.484vw;
 }
