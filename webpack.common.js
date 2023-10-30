@@ -133,8 +133,8 @@ module.exports = {
 
     // Article
     new HtmlWebpackPlugin({
-      template: './src/trips/NN.html',
-      filename: './trips/NN.html'
+      template: './src/article.html',
+      filename: './article.html'
     }),
 
     // Partials

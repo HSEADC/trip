@@ -1,0 +1,33 @@
+.main-i {
+    top: 1.875vw;
+    margin: auto;
+    position: relative;
+    overflow: hidden;
+    width: 95vw;
+    height: 47.891vw;
+    border-radius: 3.750vw;
+}
+.main-i img{
+    position: relative;
+    width: 95vw;
+    height: 47.891vw;
+}
+.block1 {
+    display: flex;
+    flex-direction: column;
+    gap: 1.875vw;
+    top: 31.563vw;
+    left: 1.250vw;
+    position: absolute;
+    width: 87.5vw;
+    height: 10.078vw;
+    border-radius: 3.125vw;
+    background: var(--white);
+    padding: 2.5vw;
+}
+.block1 h1 {
+    color: var(--black);
+    font-size: 3.75vw;
+    font-weight: 400;
+    text-transform: uppercase;
+}
