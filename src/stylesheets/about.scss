@@ -151,6 +151,8 @@
     justify-content: space-between;
 }
 .pic1, .pic2, .pic3 {
+    display:block;
+    overflow: hidden;
     width: 30vw;
     height: 30vw;
     border-radius: 2.5vw;
@@ -176,4 +178,16 @@
     color: var(--black);
     font-weight: 300;
     font-size: 1.484vw;
+}
+.pic1 img{
+    width: 30vw;
+    height: 30vw;
+}
+.pic2 img{
+    width: 30vw;
+    height: 30vw;
+}
+.pic3 img{
+    width: 30vw;
+    height: 30vw;
 }
