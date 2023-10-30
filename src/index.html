@@ -4,17 +4,62 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Трип</title>
+    <link rel="icon" type="image/png" href="images/favicon.png">
 </head>
-<body class="index">
-    <h1>Трип</h1>
-    
-    <h2>Разделы</h2>
-    <ul>
-        <li><a href="trips.html">Путешествия</a></li>
-        <li><a href="Merch.html">Мерч</a></li>
-        <li><a href="Advices.html">Советы</a></li>
-        <li><a href="About.html">О нас</a></li>
-        <li><a href="Fun.html">Приколы</a></li>
-    </ul>
+<body class="zglushka">
+    <div class="menu">
+       <div class="navigation">
+            <!-- кнопка промо -->
+            <div id="Active" class="promo-b">
+                <a href="index.html">Промо</a>
+            </div>
+            <!-- кнопка о нас -->
+            <div id="inactive" class="about-b">
+                <a href="about.html">О нас</a>
+            </div>
+            <!-- кнопка публикация -->
+            <div id="inactive" class="article-b">
+                <a href="article.html">Публикация</a>
+            </div>
+         </div>
+        <img class="logo" src="images/logo.svg" alt="">
+        <!-- кнопки соцсетей -->
+        <div class="socials">
+            <div class="link">
+                <a href="">telegram<img src="images/Frame 5.svg" alt=""></a>
+            </div>
+            <div class="link">
+                <a href="">vk<img src="images/Frame 5.svg" alt=""></a>
+            </div>
+            <div class="link">
+                <a href="">youtube<img src="images/Frame 5.svg" alt=""></a>
+            </div>
+        </div>
+    </div>
+    <!-- задние элементы -->
+    <div class="rotate-circle"><img src="images/circle.svg" alt=""></div>
+    <h1 class="back">НЕ</h1>
+    <p class="back-2">Вырвись из замкнутого                          
+        <br>круга путешествий 
+        <br>по туристическим 
+        <br>маршрутам</p>
+    <!-- форма -->
+    <div class="forma">
+        <div class="round-forma">
+            <form id="my-form" action="https://formspree.io/f/mleyzkzq" method="POST">
+                <div class="email"><label>Электропочта:</label>
+                <input type="email" name="email" /></div>
+                <div class="button"><button id="my-form-button"><p>подписаться<br>на рассылку</p></button>
+                <p id="my-form-status"></p></div>
+            </form>
+        </div>
+    </div>
+    <!-- передний текст -->
+    <h1 class="front">ПРОПУСТИ<br>ТРИП</h1>
+    <div class="footer">
+        <p>HSE ADC</p>
+        <p>trip parents <br> ваня х арина х чушьдаш</p>
+        <p>2023</p>
+    </div>
 </body>
 </html>

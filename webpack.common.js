@@ -100,34 +100,49 @@ module.exports = {
       filename: './index.html'
     }),
 
-    //section
-    new HtmlWebpackPlugin({
-      template: './src/trips.html',
-      filename: './trips.html'
-    }),
-    new HtmlWebpackPlugin({
-      template: './src/merch.html',
-      filename: './merch.html'
-    }),
-    new HtmlWebpackPlugin({
-      template: './src/About.html',
-      filename: './About.html'
-    }),
-    new HtmlWebpackPlugin({
-      template: './src/Fun.html',
-      filename: './Fun.html'
-    }),
-    new HtmlWebpackPlugin({
-      template: './src/Advices.html',
-      filename: './Advices.html'
-    }),
+    // //trips
+    // new HtmlWebpackPlugin({
+    //   template: './src/trips.html',
+    //   filename: './trips.html'
+    // }),
+
+    // //merch
+    // new HtmlWebpackPlugin({
+    //   template: './src/merch.html',
+    //   filename: './merch.html'
+    // }),
+
+    // //about
+    // new HtmlWebpackPlugin({
+    //   template: './src/About.html',
+    //   filename: './About.html'
+    // }),
+
+    // //fun
+    // new HtmlWebpackPlugin({
+    //   template: './src/Fun.html',
+    //   filename: './Fun.html'
+    // }),
+
+    // //avices
+    // new HtmlWebpackPlugin({
+    //   template: './src/Advices.html',
+    //   filename: './Advices.html'
+    // }),
 
 
     // Article
     new HtmlWebpackPlugin({
-      template: './src/trips/NN.html',
-      filename: './trips/NN.html'
+      template: './src/article.html',
+      filename: './article.html'
     }),
+
+    // about
+    new HtmlWebpackPlugin({
+      template: './src/about.html',
+      filename: './about.html'
+    }),
+
 
     // Partials
     new HtmlWebpackPartialsPlugin([
