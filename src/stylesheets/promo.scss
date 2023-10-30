@@ -71,8 +71,9 @@ a {
 
 // круг-форма
 .forma {
+    width: 100%;
     top: 35.625vw;
-    position: relative;
+    position: absolute;
     display: flex;
     text-align: center;
     flex-direction: column;
@@ -140,14 +141,53 @@ button:hover {
     position: relative;
 }
 .back {
+    top: 23.3vw;
     display: flex;
     text-align: center;
     justify-content: center;
     align-items: center;
-}
-.back h1 {
+    position: relative;
     color: var(--black);
-    text-align: center;
     font-size: 7.500vw;
     font-weight: 400;
+}
+.back-2 {
+    width: 13vw;
+    top: 16.8vw;
+    left: 60vw;
+    position: relative;
+    color: var(--black);
+    font-size: 1.094vw;
+    font-weight: 300;
+    line-height: 115%;
+    text-align: center;
+}
+.front {
+    top: 17.3vw;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    color: var(--black);
+    font-size: 7.500vw;
+    font-weight: 400;
+}
+.rotate-circle {
+    overflow: hidden;
+    width: 100%;
+    top: 16.563vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+}
+.rotate-circle img{
+    width: 80%;
+    height: 80%;
+    animation: rotatee 20s linear infinite ;
+}
+@keyframes rotatee {
+    0% {transform: rotate(0deg);}
+    100% {transform: rotate(360deg);}
 }
