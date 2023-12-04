@@ -143,6 +143,12 @@ module.exports = {
       filename: './about.html'
     }),
 
+    // promo
+    new HtmlWebpackPlugin({
+      template: './src/promo.html',
+      filename: './promo.html'
+    }),
+
 
     // Partials
     new HtmlWebpackPartialsPlugin([
