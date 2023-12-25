@@ -105,3 +105,16 @@
 .gr img {
     width: 17.72vw;
 }
+.try1 {
+    position: relative;
+    margin: auto;
+    top: 77vw;
+}
+.try1 p {
+    position: relative;
+    text-align: center;
+    font-size: 5.62vw;
+    font-weight: 300;
+    text-transform: uppercase;
+    box-shadow: 0 0 0 6px var(--black), 0 0 0 12px var(--green);
+}
