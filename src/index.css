@@ -5,6 +5,22 @@
 @import 'stylesheets/promo2.scss';
 @import 'stylesheets/article.scss';
 @import 'stylesheets/about.scss';
+@import 'stylesheets/styleguide.scss';
+@font-face {
+    font-family: 'Suisse Intl';
+    src: url('fonts/SuisseIntl-Book.otf') format("opentype");
+    font-weight: 450;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Suisse Intl';
+    src: url('fonts/SuisseIntl-Book.otf') format("opentype");
+    font-weight: 400;
+    font-style: normal;
+}
+
+
+
 @font-face {
     font-family: 'ALS Savage';
     src: url('fonts/ALS_Savage_Black_1.0.otf') format("opentype");

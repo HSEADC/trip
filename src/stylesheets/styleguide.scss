@@ -1,0 +1,108 @@
+.guide h1{
+    font-size: 3.33vw;
+    font-weight: 450;
+    line-height: 95%;
+    letter-spacing: -0.96px;
+}
+.guide p {
+    margin-top: 4.17vw;
+    font-size: 2.50vw;
+    font-weight: 400;
+    line-height: 110%;
+    letter-spacing: -0.72px;
+}
+// общее смещение секций
+.guide section {
+    padding-left: 20vw;
+}
+.guide a{
+    font-size: 1.5vw;
+    font-weight: 450;
+    line-height: 95%;
+}
+
+.st-menu {
+    display: flex;
+    text-align: center;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1.5vw 1.6vw 0vw 1.6vw;
+}
+.st-menu p {
+    margin-top: 0;
+    color: var(--black);
+    font-size: 1.25vw;
+    font-weight: 450;
+    line-height: 95%;
+    letter-spacing: -0.36px;
+}
+.st-menu a:hover {
+    text-decoration: underline;
+    text-underline-offset: 0.5vw;
+    text-decoration-thickness: 0.15vw;
+    text-decoration-color: var(--green);
+}
+
+// боковое меню 
+.side {
+    margin-top: 15vw;
+    position: absolute;
+    width: 14vw;
+    height: 27.78vw;
+}
+nav {
+    position: fixed;
+    display: flex;
+    text-align: left;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 1.11vw;
+    padding: 0vw 1.67vw;
+}
+// первый экран 
+.first-styleguide {
+    display: flex;
+    flex-direction: column;
+    padding-left: 3.82vw;
+    padding-right: 3.82vw;
+    margin-bottom: 11.81vw;
+}
+
+.first-styleguide h1{
+    position: relative;
+    color: var(--green);
+    font-size: 14.86vw;
+    font-weight: 450;
+    line-height: 80%;
+}
+
+.first-styleguide p{
+    padding-top: 5VW;
+    padding-left: 10vw;
+    position: relative;
+    color: var(--black);
+    font-size: 2.71vw;
+    font-weight: 450;
+    line-height: 80%;
+}
+
+.secondline {
+    display: flex;
+    flex-direction: row;
+}
+// .right {
+//     text-align: right;
+// }
+
+// о бренде 
+.about {
+    display: flex;
+    text-align: left;
+    flex-direction: column;
+    align-items: flex-start;
+    position: relative;
+    width: 60vw;
+    background-color: aqua;
+}
+

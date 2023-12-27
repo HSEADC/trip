@@ -149,6 +149,12 @@ module.exports = {
       filename: './promo.html'
     }),
 
+    // styleguide
+    new HtmlWebpackPlugin({
+      template: './src/styleguide.html',
+      filename: './styleguide.html'
+    }),
+
 
     // Partials
     new HtmlWebpackPartialsPlugin([
