@@ -47,18 +47,21 @@
 // боковое меню 
 .side {
     margin-top: 15vw;
-    position: absolute;
-    width: 14vw;
+    position: fixed;
+    width: 18vw;
     height: 27.78vw;
 }
 nav {
-    position: fixed;
     display: flex;
     text-align: left;
     flex-direction: column;
     align-items: flex-start;
-    gap: 1.11vw;
-    padding: 0vw 1.67vw;
+    gap: 1.5vw;
+    padding: 0vw 3.33vw;
+}
+nav a {
+    font-size: 1.32vw;
+    font-weight: 300;
 }
 // первый экран 
 .first-styleguide {

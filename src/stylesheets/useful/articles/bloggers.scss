@@ -1,0 +1,59 @@
+.return {
+    margin-top: 1.11vw;
+    margin-left: 1.11vw;
+    left: 0;
+    position: absolute;
+    display: inline-flex;
+    border-radius: 3.125vw;
+    height: 3.75vw;
+    width: 3.75vw;
+    justify-content: center;
+    align-items: center;
+    background: var(--white);
+}
+.blog .block1 {
+    height: 13.22vw;
+}
+.blog .main-i {
+    height: 51vw;
+    background: var(--grey);
+}
+.blog .main-i img{
+    height: 51vw;
+}
+.return img {
+    width: 1.39vw;
+    height: 1.53vw;
+}
+.tag3 {
+    width: 11.24vw;
+}
+.blog .pic{
+    margin: 0;
+}
+.blog a{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.blog a img{
+    width: 2vw;
+    height: 2vw;
+}
+.row {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 1.11vw;
+}
+.row div {
+    height: 20.28vw;
+    width: 20.28vw;
+    border-radius: 1.11vw;
+    background: var(--grey);
+    overflow: hidden;
+}
+.row div img {
+    height: 20.28vw;
+    width: 20.28vw;
+}

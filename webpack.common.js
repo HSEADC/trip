@@ -155,6 +155,13 @@ module.exports = {
       filename: './styleguide.html'
     }),
 
+    // useful!!
+    // articles
+    // Article
+    new HtmlWebpackPlugin({
+      template: './src/useful/articles/blogers.html',
+      filename: './useful/articles/blogers.html'
+    }),
 
     // Partials
     new HtmlWebpackPartialsPlugin([
