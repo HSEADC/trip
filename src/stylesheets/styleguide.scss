@@ -168,3 +168,33 @@ nav a {
     align-items: center;
     gap: 1.53vw;
 }
+.photo-st {
+    display: flex;
+    flex-direction: row;
+    gap: 1.46vw;
+}
+.photo-st .photo {
+    overflow: hidden;
+    width: 27.43vw;
+    height: 27.43vw;
+    border-radius: 1.11vw;
+}
+.photo img {
+    width: 27.43vw;
+    height: 27.43vw;
+}
+.footer1 {
+    margin-top: 8.97vw;
+    position: relative;
+    display: flex;
+    text-align: center;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 2.5vw 2.5vw 2.5vw 2.5vw;
+}
+.footer1 p {
+    color: var(--black);
+    font-weight: 300;
+    font-size: 1.484vw;
+}
