@@ -149,6 +149,32 @@ module.exports = {
       filename: './promo.html'
     }),
 
+    // styleguide
+    new HtmlWebpackPlugin({
+      template: './src/styleguide.html',
+      filename: './styleguide.html'
+    }),
+
+    // useful!!
+    // articles
+    // Article
+    new HtmlWebpackPlugin({
+      template: './src/useful/articles/blogers.html',
+      filename: './useful/articles/blogers.html'
+    }),
+
+    // tests!!
+    // test1
+    new HtmlWebpackPlugin({
+      template: './src/tests/test1.html',
+      filename: './tests/test1.html'
+    }),
+
+    // test1 result
+    new HtmlWebpackPlugin({
+      template: './src/tests/test1Results.html',
+      filename: './tests/test1Results.html'
+    }),
 
     // Partials
     new HtmlWebpackPartialsPlugin([

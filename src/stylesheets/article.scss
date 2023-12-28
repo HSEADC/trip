@@ -36,7 +36,7 @@
     flex-direction: row;
     gap: 0.938vw;
 }
-.tag1, .tag2 {
+.tag1, .tag2, .tag3 {
     display: inline-flex;
     justify-content: center;
     align-items: center;
@@ -60,7 +60,7 @@
 .headings {
     position: relative;
     padding-top: 7.5vw;
-    margin: auto;
+    margin-left: 23.61vw;
     width: 62.969vw;
     display: flex;
     flex-direction: column;
@@ -85,6 +85,7 @@
     width: 62.969vw;
     height: 34.297vw;
     border-radius: 2.5vw;
+    background: var(--grey);
 }
 .pic img {
     width: 62.969vw;

@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Трип</title>
+    <link rel="icon" type="image/png" href="../images/favicon.png">
+    <script src="../java/test.js"></script>
+</head>
+<body class="city-test">
+    <div class="menu">
+        <div class="navigation">
+             <!-- кнопка промо -->
+             <div id="inactive" class="promo-b">
+                 <a href="../index.html">Промо</a>
+             </div>
+             <!-- кнопка о нас
+             <div id="inactive" class="about-b">
+                 <a href="about.html">О нас</a>
+             </div> -->
+             <!-- кнопка стайлгайд -->
+             <div id="inactive" class="article-b">
+                 <a href="../styleguide.html">Стайлгайд</a>
+             </div>
+          </div>
+          <img class="logo" src="../images/logo.svg" alt="">
+         <!-- кнопки соцсетей -->
+         <div class="socials">
+             <div class="link">
+                 <a href="https://t.me/trippppppp">telegram<img src="../images/Frame 5.svg" alt=""></a>
+             </div>
+             <div class="link">
+                 <a href="https://vk.com/tripppppppppppppppppp">vk<img src="../images/Frame 5.svg" alt=""></a>
+             </div>
+             <div class="link">
+                 <a href="https://youtube.com/@trip371?si=SBiUNzukE8RKj9Tq">youtube<img src="../images/Frame 5.svg" alt=""></a>
+             </div>
+         </div>
+     </div>
+    <div class="side">
+        <nav>
+            <a href="#weekend">Выходные</a>
+            <a href="#bar">Бар</a>
+            <a href="#playlist">Плейлист</a>
+            <a href="#date">Свидание</a>
+            <a href="#alone">Уединиться</a>
+            <a href="#coffee">Кофе</a>
+        </nav>
+    </div>
+    <!-- фото-заголовок -->
+    <div class="main-i">
+        <img src="../images/Tarusa.png" alt="">
+        <div class="return">
+            <a href="../"><img src="../images/Vector.svg" alt=""></a>
+        </div>
+        <div class="block1">
+            <h1>какой ты город подмосковья?</h1>
+            <div class="tags">
+                <div class="tag1">
+                    <p>Тесты</p>
+                </div>
+                <div class="tag2">
+                    <p>6 вопросов</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+     <!-- выходные -->
+     <section id="weekend">
+        <div class="headings">
+            <h2>Как проведешь выходные?</h2>
+            <ul id="circleList">
+                <li><div class="circle unselected" onclick="changeColor(this)"></div>Буду лежать на&nbsp;диване и&nbsp;смотреть сериалы</li>
+                <li><div class="circle unselected" onclick="changeColor(this)"></div>Схожу на&nbsp;несколько мероприятий, а&nbsp;потом загляну на&nbsp;вечеринку</li>
+                <li><div class="circle unselected" onclick="changeColor(this)"></div>Встречусь в&nbsp;друзьями в&nbsp;кафе</li>
+                <li><div class="circle unselected" onclick="changeColor(this)"></div>Схожу в&nbsp;парк, уточек покормлю</li>
+              </ul>
+        </div>
+    </section>
+     <!-- бар -->
+     <section id="bar">
+        <div class="headings">
+            <h2>Друзья пригласили тебя в&nbsp;бар. <br>Что закажешь?</h2>
+            <ul id="circleList">
+                <li><div class="circle unselected" onclick="changeColor(this)"></div>Бокал вина</li>
+                <li><div class="circle unselected" onclick="changeColor(this)"></div>Что подешевле, цены в&nbsp;барах&nbsp;&mdash; просто ужас</li>
+                <li><div class="circle unselected" onclick="changeColor(this)"></div>Что-то безалкогольное</li>
+                <li><div class="circle unselected" onclick="changeColor(this)"></div>Начну с&nbsp;чего-нибудь легкого, а&nbsp;там как пойдет</li>
+              </ul>
+        </div>
+    </section>
+
+    <!-- плейлист -->
+    <section id="playlist">
+        <div class="headings">
+            <h2>Какая музыка у&nbsp;тебя в&nbsp;плейлисте?</h2>
+            <ul id="circleList">
+                <li><div class="circle unselected" onclick="changeColor(this)"></div>Русский рок и&nbsp;локальные группы, о&nbsp;которых мало кто знает</li>
+                <li><div class="circle unselected" onclick="changeColor(this)"></div>Хип-хоп и&nbsp;рэп</li>
+                <li><div class="circle unselected" onclick="changeColor(this)"></div>Хлопья летят наверх</li>
+                <li><div class="circle unselected" onclick="changeColor(this)"></div>Все вперемешку</li>
+                </ul>
+        </div>
+    </section>
+
+    <!-- свидание -->
+    <section id="date">
+        <div class="headings">
+            <h2>Ты&nbsp;собираешься на&nbsp;свидание.<br>В&nbsp;чем пойдешь?</h2>
+            <ul id="circleList">
+                <li><div class="circle unselected" onclick="changeColor(this)"></div>Что-нибудь &laquo;не&nbsp;на&nbsp;каждый день&raquo;</li>
+                <li><div class="circle unselected" onclick="changeColor(this)"></div>В&nbsp;том, что выпадет из&nbsp;шкафа</li>
+                <li><div class="circle unselected" onclick="changeColor(this)"></div>Надену что-нибудь стильное, но&nbsp;не&nbsp;броское</li>
+                <li><div class="circle unselected" onclick="changeColor(this)"></div>Не&nbsp;пойду</li>
+                </ul>
+        </div>
+    </section>
+
+        <!-- уединиться -->
+    <section id="alone">
+        <div class="headings">
+            <h2>Куда пойдешь, если захочешь уединиться?</h2>
+            <ul id="circleList">
+                <li><div class="circle unselected" onclick="changeColor(this)"></div>В любимую кофейню</li>
+                <li><div class="circle unselected" onclick="changeColor(this)"></div>В бар</li>
+                <li><div class="circle unselected" onclick="changeColor(this)"></div>Пойду в&nbsp;парк</li>
+                <li><div class="circle unselected" onclick="changeColor(this)"></div>В&nbsp;ванную</li>
+                </ul>
+        </div>
+    </section>
+
+        <!-- кофе -->
+    <section id="coffee">
+        <div class="headings">
+            <h2>Где покупаешь кофе, когда едешь на&nbsp;работу?</h2>
+            <ul id="circleList">
+                <li><div class="circle unselected" onclick="changeColor(this)"></div>Чем дешевле, тем лучше</li>
+                <li><div class="circle unselected" onclick="changeColor(this)"></div>Мне неважно, главное – большой объем</li>
+                <li><div class="circle unselected" onclick="changeColor(this)"></div>В любимой кофейне</li>
+                <li><div class="circle unselected" onclick="changeColor(this)"></div>Я&nbsp;дома кофе пью...</li>
+                <li><div class="circle unselected" onclick="changeColor(this)"></div>Эм... Я&nbsp;вообще не&nbsp;работаю</li>
+            </ul>
+        </div>
+    </section>
+    <!-- результаты -->
+    <div class="headings">
+        <div class="button1">
+            <a href="test1Results.html"><p>К результатам</p></a>
+        </div>
+    </div>
+        <!-- мини-футер -->
+    <div class="footer2">
+        <p>HSE ADC</p>
+        <p>trip parents <br> ваня х арина х чушьдаш</p>
+        <p>2023</p>
+    </div>
+</body>
