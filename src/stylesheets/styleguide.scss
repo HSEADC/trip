@@ -1,26 +1,3 @@
-.guide h1{
-    font-size: 3.33vw;
-    font-weight: 450;
-    line-height: 95%;
-    letter-spacing: -0.96px;
-}
-.guide p {
-    margin-top: 4.17vw;
-    font-size: 2.50vw;
-    font-weight: 400;
-    line-height: 110%;
-    letter-spacing: -0.72px;
-}
-// общее смещение секций
-.guide section {
-    padding-left: 20vw;
-}
-.guide a{
-    font-size: 1.5vw;
-    font-weight: 450;
-    line-height: 95%;
-}
-
 .st-menu {
     display: flex;
     text-align: center;
@@ -66,6 +43,7 @@ nav a {
 // первый экран 
 .first-styleguide {
     display: flex;
+    height: 34vw;
     flex-direction: column;
     padding-left: 3.82vw;
     padding-right: 3.82vw;
@@ -93,7 +71,7 @@ nav a {
     align-items: center;
     background: var(--green);
 }
-.gr img {
+.grr img {
     width: 17.72vw;
 }
 
@@ -111,14 +89,81 @@ nav a {
     height: 40.625vw;
 }
 
-// о бренде 
-.about {
-    display: flex;
-    text-align: left;
-    flex-direction: column;
-    align-items: flex-start;
-    position: relative;
-    width: 60vw;
-    background-color: aqua;
+.headings li{
+    font-weight: 300;
+    font-size: 1.484vw;
+    line-height: 115%;
+    list-style-type: circle;
 }
-
+.ggr {
+    width: 18vw;
+    display: flex;
+    padding: 1.06vw 1.12vw;
+    border-radius: 1.11vw;
+    align-items: center;
+    background: var(--green);
+}
+.net {
+    width: 58.13vw;
+}
+.ggr img {
+    width: 17.72vw;
+}
+.colors {
+    display: flex;
+    flex-direction: row;
+    gap: 1.11vw;
+}
+.color1, .color2, .color3, .color4 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 13.13vw;
+    height: 13.13vw;
+    border-radius: 1.11vw;
+}
+.color1 {
+    background-color: var(--green);
+}
+.color1 p {
+    color: var(--black);
+}
+.color2 {
+    background-color: var(--purple);
+}
+.color2 p {
+    color: var(--white);
+}
+.color3 {
+    border: 0.078vw solid var(--black);
+    background-color: var(--white);
+}
+.color3 p {
+    color: var(--black);
+}
+.color4 {
+    background-color: var(--black);
+}
+.color4 p {
+    color: var(--white);
+}
+.headings h3 {
+    color: var(--purple);
+    font-size: 2.78vw;
+    font-weight: 300;
+}
+.headings .alpha {
+    width: 32.85vw;
+    color: var(--purple);
+}
+.grid {
+    display: flex;
+    flex-direction: column;
+}
+.column1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    gap: 1.53vw;
+}
