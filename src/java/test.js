@@ -11,10 +11,3 @@ function changeColor(selectedCircle) {
     selectedCircle.classList.remove('unselected');
     selectedCircle.classList.add('selected');
 }
-
-$(document).ready(function(){
-    $(".button").click(function(){
-      $(".first-screen").addClass ("none");
-      $(".second-screen").removeClass ("none");
-    })
-})

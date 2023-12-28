@@ -49,9 +49,28 @@ li {
     font-size: 1.32vw;
 }
 .paragraph {
-    width: 63.96vw;
+    width: 83vw;
     color: var(--black);
     font-size: 1.32vw;
     font-weight: 300;
     line-height: 115%; 
+}
+.city {
+    top: 1.875vw;
+    margin: auto;
+    position: relative;
+    overflow: hidden;
+    width: 95vw;
+    height: 47.891vw;
+    border-radius: 3.750vw;
+}
+.city img{
+    position: relative;
+    width: 95vw;
+    height: 47.891vw;
+}
+
+.return img {
+    width: 1.39vw;
+    height: 1.53vw;
 }
