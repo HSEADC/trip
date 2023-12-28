@@ -68,30 +68,282 @@ a {
     border: 0.078vw solid var(--green);
 }
 
-// круг-форма
-.forma {
-    width: 100%;
-    top: 28.625vw;
+.first-screeen h1{
+    position: relative;
+    text-align: center;
+    font-size: 5.62vw;
+    font-weight: 300;
+    line-height: 115%;
+    text-transform: uppercase;
+}
+.first-screeen {
+    margin-top: 4.72vw;
+    position: relative;
+}
+
+.advantages {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 1.25vw;
+}
+
+.adv1, .adv2, .adv3, .adv4 {
+    overflow: hidden;
+    width: 22.81vw;
+    height: 21.81vw;
+    border-radius: 2.22vw;
+    background-color: var(--green);
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    padding-bottom: 1vw;
+}
+.adv2 {
+    position: relative;
+    top: 10.42vw;
+}
+.adv3 {
+    position: relative;
+    top: 4.17vw;
+}
+.adv4 {
+    position: relative;
+    top: -2vw;
+}
+.adv4 {
+    background-color: var(--purple);
+}
+
+.advantages img{
+    position: relative;
+    top: 1vw;
+    width: 22.81vw;
+    height: 22.81vw;
+}
+
+.inside, .inside2 {
     position: absolute;
     display: flex;
+    padding: 0.97vw 2.43vw 1.11vw 1.11vw;
+    align-items: center;   
+    width: 18vw;
+    height: 6.41vw;
+    border-radius: 1.39vw;
+    background-color: var(--white);
+}
+
+.inside2 {
+    display: inline-flex;
+    padding: 1.09vw 0.94vw 1.25vw 1.25vw;
+    justify-content: flex-end;
+    align-items: center;
+
+}
+.inside, .inside2 p {
+    font-size: 1.88vw;
+    font-weight: 400;
+    line-height: 110%; 
+}
+
+.green-back {
+    position: absolute;
+    width: 100vw;
+    height: 166.67vw;
+    background-color: var(--green);
+    z-index: -1;
+
+}
+.background {
+    position: absolute;
+    background-color: var(--white);
+    width: 100vw;
+    height: 100vw;
+    border-bottom-left-radius: 100vw;
+    border-bottom-right-radius: 100vw;
+    z-index: -1;
+}
+
+
+.first-screeen h2 {
+    margin-left: auto;
+    margin-right: auto;
+    width: 46.88vw;
+    margin-top: 20vw;
     text-align: center;
+    font-size: 40px;
+    font-weight: 300;
+    line-height: 110%;
+}
+
+.background2 {
+    margin-top: 41.25vw;
+    position: absolute;
+    background-color: var(--white);
+    width: 100vw;
+    height: 100vw;
+    border-top-left-radius: 100vw;
+    border-top-right-radius: 100vw;
+    z-index: -1;
+}
+.second-screen2 {
+    margin-top: 70vw;
+    position: relative;
+    width: 100%;
+}
+.second-screen2 h1 {
+    text-align: center;
+    font-size: 6.64vw;
+    font-weight: 300;
+    text-transform: uppercase;
+}
+
+.articles {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 1.25vw;
+}
+.articles .blbl {
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    padding-bottom: 1vw;
+    margin-top: 3.75vw;
+    width: 30.86vw;
+    height: 29.86vw;
+    border-radius: 2.50vw;
+    background-color: var(--green);
+}
+.rect {
+    position: absolute;
+    display: flex;
     flex-direction: column;
+    gap: 1.02vw;
+    padding: 0.97vw 2.43vw 1.11vw 1.11vw;
+    justify-content: center;   
+    border-radius: 1.39vw;
+    width: 24.5vw;
+    height: 7.66vw;
+    background-color: var(--white);
+}
+.rect p {
+    font-size: 1.88vw;
+    font-weight: 400;
+}
+.plashka {
+    display: inline-flex;
+    padding: 0.55vw 1.33vw 0.78vw 1.33vw;
+    justify-content: center;
+    align-items: center;
+    width: 8vw;
+    border-radius: 3.13vw;
+    background-color: var(--green);
+}
+.plashka p {
+    font-size: 1.25vw;
+    font-weight: 300;
+}
+
+.articles img{
+    position: relative;
+    top: 1vw;
+    width: 30.86vw;
+    height: 30.86vw;
+}
+
+.thrd-block {
+    overflow: hidden;
+    margin-top: 10.16vw;
+    display: inline-flex;
+    flex-direction: column;
+    gap: 1.88vw;
+    justify-content: center;
+    width: 95vw;
+    height: 35.63vw;
+    border-radius: 32px;
+    padding-left: 3.75vw;
+    background-color: var(--purple);
+}
+
+.tryy11 {
+    display: flex;
+    justify-content: center;
+
+}
+
+.thrd-block img {
+    width: 100vw;
+}
+.overlay {
+    position: absolute;
+    display: inline-flex;
+    flex-direction: column;
+    gap: 1.88vw;
+    justify-content: center;
+}
+.thrd-block h1 {
+    color: var(--white);
+    font-size: 5.63vw;
+    font-weight: 400;
+    line-height: 115%; 
+    text-transform: uppercase;
+}
+.thrd-block p {
+    color: var(--white);
+    font-size: 1.48vw;
+    font-weight: 300;
+    line-height: 115%;
+    width: 32.89vw;
+}
+.opros {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 3.125vw;
+    width: 13.13vw;
+    height: 3.906vw;
+    background: var(--white);
+}
+.opros p {
+    text-align: center;
+    color: var(--black);
+    font-size: 1.48vw;
+    font-weight: 300;
+}
+.socials-screen2 {
+    margin-top: 11.72vw;
+    position: relative;
+    width: 100%;
+}
+.socials-screen2 h1 {
+    text-align: center;
+    font-size: 6.64vw;
+    font-weight: 300;
+    text-transform: uppercase;
+}
+
+
+
+
+// круг-форма
+.forma {
+    position: relative;
+    display: flex;
+    text-align: center;
+    flex-direction: row;
     justify-content: center;
     align-items: center;
 }
-.round-forma {
-    display: flex;
-    background: var(--green);
-    height: 40.469vw;
-    width: 40.469vw;
-    border-radius: 40.469vw;
-    justify-content: center;
-}
+
 form {
     top: 7.188vw;
     display: flex;
     text-align: center;
-    flex-direction: column;
+    flex-direction: row;
     justify-content: center;
     align-items: center;
     position: relative;
@@ -113,27 +365,41 @@ input {
     background: var(--green);
 }
 .button {
-    top: 4.6vw;
     position: relative;
 }
 button {
-    height: 15.234vw;
-    width: 15.234vw;
+    height: 3.91vw;
+    width: 14.77vw;
     border-radius: 15.234vw;
-    background: var(--green);
-    border: 0.078vw solid var(--black);
+    border: 0;
+    background-color: var(--white);
+}
+input {
+    margin-right: 1.25vw;
+    padding-left: 1.56vw;
+    height: 3.91vw;
+    width: 30.86vw;
+    border-radius: 15.234vw;
+    border: 0.08vw solid var(--black);
+    background-color: var(--green);
+}
+#my-form-status {
+    text-align: center;
+    font-size: 1.484vw;
+    font-weight: 300;
+    font-style: normal;
+    line-height: 115%;
 }
 button p {
     text-align: center;
     font-size: 1.484vw;
     font-weight: 300;
-    font-family: ALS Savage;
     font-style: normal;
     line-height: 115%;
 }
 button:hover {
-    background: #C8E605;
-    border: 0.078vw solid #C8E605;
+    background: var(--green);
+    border: 0;
 }
 #my-form-status {
     top: 1.6vw;
@@ -160,46 +426,17 @@ button:hover {
     font-weight: 300;
     line-height: 115%;
     text-align: left;
-
-}
-.front {
-    top: 10.3vw;
-    display: flex;
-    text-align: center;
-    justify-content: center;
-    align-items: center;
-    position: relative;
-    color: var(--black);
-    font-size: 7.500vw;
-    font-weight: 400;
-}
-.rotate-circle {
-    overflow: hidden;
-    width: 100%;
-    top: 9.563vw;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    position: absolute;
-}
-.rotate-circle img{
-    width: 80%;
-    height: 80%;
-    animation: rotatee 20s linear infinite ;
-}
-@keyframes rotatee {
-    0% {transform: rotate(0deg);}
-    100% {transform: rotate(360deg);}
 }
 .footer {
+    margin-top: 8.97vw;
     position: relative;
-    top: 62vw;
     display: flex;
     text-align: center;
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
     padding: 2.5vw 2.5vw 2.5vw 2.5vw;
+    background-color: var(--green);
 }
 .footer p {
     color: var(--black);
@@ -207,3 +444,22 @@ button:hover {
     font-size: 1.484vw;
 }
 
+.background3 {
+    margin-top: 10vw;
+    position: absolute;
+    background-color: var(--green);
+    width: 100vw;
+    height: 50vw;
+    border-top-left-radius: 100vw;
+    border-top-right-radius: 100vw;
+    z-index: -1;
+}
+.headd h1 {
+    text-align: center;
+    font-size: 6.64vw;
+    font-weight: 300;
+    text-transform: uppercase;
+}
+.headd {
+    margin-top: 29.84vw;
+}
