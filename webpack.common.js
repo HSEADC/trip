@@ -163,6 +163,19 @@ module.exports = {
       filename: './useful/articles/blogers.html'
     }),
 
+    // tests!!
+    // test1
+    new HtmlWebpackPlugin({
+      template: './src/tests/test1.html',
+      filename: './tests/test1.html'
+    }),
+
+    // test1 result
+    new HtmlWebpackPlugin({
+      template: './src/tests/test1Results.html',
+      filename: './tests/test1Results.html'
+    }),
+
     // Partials
     new HtmlWebpackPartialsPlugin([
       {

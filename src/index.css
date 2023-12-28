@@ -7,6 +7,7 @@
 @import 'stylesheets/about.scss';
 @import 'stylesheets/styleguide.scss';
 @import 'stylesheets/useful/articles/bloggers.scss';
+@import 'stylesheets/tests/test.scss';
 @font-face {
     font-family: 'Suisse Intl';
     src: url('fonts/SuisseIntl-Book.otf') format("opentype");
