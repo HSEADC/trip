@@ -1,25 +1,25 @@
-.st-menu {
-    display: flex;
-    text-align: center;
-    flex-direction: row;
-    align-items: center;
-    justify-content: space-between;
-    padding: 1.5vw 1.6vw 0vw 1.6vw;
-}
-.st-menu p {
-    margin-top: 0;
-    color: var(--black);
-    font-size: 1.25vw;
-    font-weight: 450;
-    line-height: 95%;
-    letter-spacing: -0.36px;
-}
-.st-menu a:hover {
-    text-decoration: underline;
-    text-underline-offset: 0.5vw;
-    text-decoration-thickness: 0.15vw;
-    text-decoration-color: var(--green);
-}
+// .st-menu {
+//     display: flex;
+//     text-align: center;
+//     flex-direction: row;
+//     align-items: center;
+//     justify-content: space-between;
+//     padding: 1.5vw 1.6vw 0vw 1.6vw;
+// }
+// .st-menu p {
+//     margin-top: 0;
+//     color: var(--black);
+//     font-size: 1.25vw;
+//     font-weight: 450;
+//     line-height: 95%;
+//     letter-spacing: -0.36px;
+// }
+// .st-menu a:hover {
+//     text-decoration: underline;
+//     text-underline-offset: 0.5vw;
+//     text-decoration-thickness: 0.15vw;
+//     text-decoration-color: var(--green);
+// }
 
 // боковое меню 
 .side {
@@ -58,6 +58,7 @@ nav a {
     text-transform: uppercase;
 }
 .first-blockk {
+    margin-top: 4vw;
     display: flex;
     gap: 1vw;
     flex-direction: column;
