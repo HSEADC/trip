@@ -198,3 +198,67 @@ nav a {
     font-weight: 300;
     font-size: 1.484vw;
 }
+.photoss {
+    display: flex;
+    flex-direction: column;
+    gap: 1.11vw;
+}
+.photo-merch {
+    display: flex;
+    flex-direction: row;
+    gap: 1.11vw;
+}
+
+.phot0, .phot1, .phot2, .phot3, .phot4, .phot5, .phot6, .phot7, .phot8 {
+    overflow: hidden;
+    border-radius: 1.11vw;
+}
+
+.phot0, .phot6 {
+    width: 34.51vw;
+    height: 25.9vw;
+    background-color: var(--green);
+}
+.phot1, .phot5 {
+    width: 20.35vw;
+    height: 25.9vw;
+    background-color: var(--green);
+}
+
+.phot2 {
+    width: 27.43vw;
+    height: 27.43vw;
+    background-color: var(--green);
+}
+.phot3 {
+    width: 27.43vw;
+    height: 27.43vw;
+    background-color: var(--green);
+}
+
+
+.phot0 img {
+    width: 34.51vw;
+    height: 25.9vw;
+}
+
+.phot1 img{
+    width: 20.35vw;
+    height: 25.9vw;
+}
+.phot2 img{
+    width: 27.43vw;
+    height: 27.43vw;
+}
+.phot3 img{
+    width: 27.43vw;
+    height: 27.43vw;
+}
+.phot5 img{
+    width: 20.35vw;
+    height: 25.9vw;
+}
+.phot6 img {
+    width: 34.51vw;
+    height: 25.9vw;
+}
