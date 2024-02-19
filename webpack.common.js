@@ -100,81 +100,14 @@ module.exports = {
       filename: './index.html'
     }),
 
-    // //trips
-    // new HtmlWebpackPlugin({
-    //   template: './src/trips.html',
-    //   filename: './trips.html'
-    // }),
 
-    // //merch
+    // // Article
     // new HtmlWebpackPlugin({
-    //   template: './src/merch.html',
-    //   filename: './merch.html'
-    // }),
-
-    // //about
-    // new HtmlWebpackPlugin({
-    //   template: './src/About.html',
-    //   filename: './About.html'
-    // }),
-
-    // //fun
-    // new HtmlWebpackPlugin({
-    //   template: './src/Fun.html',
-    //   filename: './Fun.html'
-    // }),
-
-    // //avices
-    // new HtmlWebpackPlugin({
-    //   template: './src/Advices.html',
-    //   filename: './Advices.html'
+    //   template: './src/article.html',
+    //   filename: './article.html'
     // }),
 
 
-    // Article
-    new HtmlWebpackPlugin({
-      template: './src/article.html',
-      filename: './article.html'
-    }),
-
-    // about
-    new HtmlWebpackPlugin({
-      template: './src/about.html',
-      filename: './about.html'
-    }),
-
-    // promo
-    new HtmlWebpackPlugin({
-      template: './src/promo.html',
-      filename: './promo.html'
-    }),
-
-    // styleguide
-    new HtmlWebpackPlugin({
-      template: './src/styleguide.html',
-      filename: './styleguide.html'
-    }),
-
-    // useful!!
-    // articles
-    // Article
-    new HtmlWebpackPlugin({
-      template: './src/useful/articles/blogers.html',
-      filename: './useful/articles/blogers.html'
-    }),
-
-    // tests!!
-    // test1
-    new HtmlWebpackPlugin({
-      template: './src/tests/test1.html',
-      filename: './tests/test1.html'
-    }),
-
-    // test1 result
-    new HtmlWebpackPlugin({
-      template: './src/tests/test1Results.html',
-      filename: './tests/test1Results.html'
-    }),
 
     // Partials
     new HtmlWebpackPartialsPlugin([
