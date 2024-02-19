@@ -1,14 +1,7 @@
 @import 'stylesheets/reset.scss';
-@import 'stylesheets/fonts.scss';
 @import 'stylesheets/vars.scss';
-@import 'stylesheets/promo.scss';
-@import 'stylesheets/promo2.scss';
-@import 'stylesheets/article.scss';
-@import 'stylesheets/about.scss';
-@import 'stylesheets/styleguide.scss';
-@import 'stylesheets/useful/articles/bloggers.scss';
-@import 'stylesheets/tests/test.scss';
-@font-face {
+
+/* @font-face {
     font-family: 'Suisse Intl';
     src: url('fonts/SuisseIntl-Book.otf') format("opentype");
     font-weight: 450;
@@ -52,4 +45,4 @@
     src: url('fonts/ALS_Savage_Light_1.0.otf') format("opentype");
     font-weight: 300;
     font-style: normal;
-}
+} */
