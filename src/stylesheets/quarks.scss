@@ -1,0 +1,74 @@
+// иконки
+
+.Q_Icons-Burger, .Q_Icons-Cross, .Q_Icons-Search, .Q_Icons-Plus, .Q_Social-TG, .Q_Social-IG, .Q_Social-VK, .Q_Social-Dzen {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 2.22vw;
+    width: 2.22vw;
+}
+.Q_Icons-Burger img, .Q_Icons-Cross img, .Q_Icons-Search img, .Q_Icons-Plus img, .Q_Social-TG img, .Q_Social-IG img, .Q_Social-VK img, .Q_Social-Dzen  img {
+    height: 2.22vw;
+    width: 2.22vw;
+}
+
+// музыка
+
+ .Q_Sound {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 12.5vw;
+    width: 11.67vw;
+ }
+ .Q_Sound img {
+    height: 12.5vw;
+    width: 11.67vw;
+ }
+
+//  стрелочки
+
+.Q_Arrows-left-short, .Q_Arrows-right-short, .Q_Arrows-left-long, .Q_Arrows-right-long, .Q_Arrows-down-short, .Q_Arrows-up-short {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 2.22vw;
+    width: 2.22vw;
+}
+.Q_Arrows-left-short img, .Q_Arrows-right-short img, .Q_Arrows-left-long img, .Q_Arrows-right-long img, .Q_Arrows-down-short img, .Q_Arrows-up-short img {
+    height: 2.22vw;
+    width: 2.22vw;
+}
+
+// иконки менюшки 
+.Q_Menu-Routes, .Q_Menu-Adviсe, .Q_Menu-Way {
+    height: 3.33vw;
+    width: 3.33vw;
+    overflow: hidden;
+    background-color: #5570FF;
+    border-radius: 0.83vw;
+}
+.Q_Menu-Adviсe {
+    background: linear-gradient(180deg, #FFC217 0%, #C76E19 100%);
+}
+.Q_Menu-Way {
+    background-color: var(--dark-green);
+}
+.Q_Menu-Routes img{
+    margin-left: -0.7vw;
+    transform: rotate(16.12deg);
+    height: 4.58vw;
+    width: 4.58vw;
+}
+.Q_Menu-Adviсe img{
+    margin-top: 0.2vw;
+    height: 3.75vw;
+    width: 3.75vw;
+}
+.Q_Menu-Way img{
+    margin-top: -0.8vw;
+    margin-left: -0.8vw;
+    transform: rotate(-23.7deg);
+    height: 5.69vw;
+    width: 5.21vw;
+}

@@ -1,48 +1,24 @@
 @import 'stylesheets/reset.scss';
 @import 'stylesheets/vars.scss';
-
-/* @font-face {
-    font-family: 'Suisse Intl';
-    src: url('fonts/SuisseIntl-Book.otf') format("opentype");
-    font-weight: 450;
+@import 'stylesheets/components.scss';
+@import 'stylesheets/quarks.scss';
+@import 'stylesheets/atoms.scss';
+@import 'stylesheets/organisms.scss';
+@font-face {
+    font-family: 'MabryPro';
+    src: url('fonts/MabryPro-Black.ttf') format("TrueType");
+    font-weight: 700;
     font-style: normal;
 }
 @font-face {
-    font-family: 'Suisse Intl';
-    src: url('fonts/SuisseIntl-Book.otf') format("opentype");
+    font-family: 'MabryPro';
+    src: url('fonts/MabryPro-Medium.ttf') format("TrueType");
+    font-weight: 500;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'MabryPro';
+    src: url('fonts/MabryPro-Regular.ttf') format("TrueType");
     font-weight: 400;
     font-style: normal;
 }
-
-
-
-@font-face {
-    font-family: 'ALS Savage';
-    src: url('fonts/ALS_Savage_Black_1.0.otf') format("opentype");
-    font-weight: 900;
-    font-style: normal;
-}
-@font-face {
-    font-family: 'ALS Savage';
-    src: url('fonts/ALS_Savage_Bold_1.0.otf') format("opentype");
-    font-weight: 800;
-    font-style: normal;
-}
-@font-face {
-    font-family: 'ALS Savage';
-    src: url('fonts/ALS_Savage_Medium_1.0.otf') format("opentype");
-    font-weight: 600;
-    font-style: normal;
-}
-@font-face {
-    font-family: 'ALS Savage';
-    src: url('fonts/ALS_Savage_Regular_1.0.otf') format("opentype");
-    font-weight: 400;
-    font-style: normal;
-}
-@font-face {
-    font-family: 'ALS Savage';
-    src: url('fonts/ALS_Savage_Light_1.0.otf') format("opentype");
-    font-weight: 300;
-    font-style: normal;
-} */

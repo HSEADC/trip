@@ -1,0 +1,182 @@
+// текст для компа
+.h1-desktop {
+    font-family: MabryPro;
+    font-size: 12.15vw;
+    font-weight: 700;
+    line-height: 10.90vw;
+    letter-spacing: -0.01em;
+    text-align: left;
+}
+.h2-desktop {
+    font-family: MabryPro;
+    font-size: 6.67vw;
+    font-weight: 500;
+    line-height: 5.97vw;
+    letter-spacing: -0.01em;
+    text-align: left;
+}
+.h3-desktop, .h3-smallDesktop {
+    font-family: MabryPro;
+    font-size: 3.33vw;
+    font-weight: 500;
+    line-height: 2.99vw;
+    letter-spacing: -0.01em;
+    text-align: left;
+}
+.subtitle-desktop, .subtitle-smallDesktop, .subtitle-Tablet {
+    font-family: MabryPro;
+    font-size: 1.67vw;
+    font-weight: 400;
+    line-height: 2.15vw;
+    letter-spacing: -0.01em;
+    text-align: left;
+}
+.p-desktop, .p-smallDesktop, .p-Tablet {
+    font-family: MabryPro;
+    font-size: 1.25vw;
+    font-weight: 400;
+    line-height: 1.6vw;
+    letter-spacing: -0.01em;
+    text-align: left;
+}
+
+// текст для маленького компа
+.h1-smallDesktop {
+    font-family: MabryPro;
+    font-size: 10.42vw;
+    font-weight: 700;
+    line-height: 9.38vw;
+    letter-spacing: -0.01em;
+    text-align: left;
+}
+.h2-smallDesktop {
+    font-family: MabryPro;
+    font-size: 5vw;
+    font-weight: 500;
+    line-height: 4.51vw;
+    letter-spacing: -0.01em;
+    text-align: left;
+}
+
+// текст для планшета
+.h1-Tablet {
+    font-family: MabryPro;
+    font-size: 8.89vw;
+    font-weight: 700;
+    line-height: 7.99vw;
+    letter-spacing: -0.01em;
+    text-align: left;
+}
+.h2-Tablet {
+    font-family: MabryPro;
+    font-size: 4.44vw;
+    font-weight: 500;
+    line-height: 3.96vw;
+    letter-spacing: -0.01em;
+    text-align: left;
+}
+.h3-Tablet {
+    font-family: MabryPro;
+    font-size: 2.78vw;
+    font-weight: 500;
+    line-height: 2.50vw;
+    letter-spacing: -0.01em;
+    text-align: left;
+}
+
+// телефон
+.h1-Phone {
+    font-family: MabryPro;
+    font-size: 4.44vw;
+    font-weight: 700;
+    line-height: 3.96vw;
+    letter-spacing: -0.01em;
+    text-align: left;
+}
+.h2-Phone {
+    font-family: MabryPro;
+    font-size: 2.78vw;
+    font-weight: 500;
+    line-height: 2.50vw;
+    letter-spacing: -0.01em;
+    text-align: left;
+}
+.h3-Phone {
+    font-family: MabryPro;
+    font-size: 3.33vw;
+    font-weight: 500;
+    line-height: 2.01vw;
+    letter-spacing: -0.01em;
+    text-align: left;
+}
+.subtitle-Phone {
+    font-family: MabryPro;
+    font-size: 1.39vw;
+    font-weight: 400;
+    line-height: 1.81vw;
+    letter-spacing: -0.01em;
+    text-align: left;
+}
+.p-Phone {
+    font-family: MabryPro;
+    font-size: 1.11vw;
+    font-weight: 400;
+    line-height: 1.46vw;
+    letter-spacing: -0.01em;
+    text-align: left;
+}
+
+// кнопочки
+
+.A_Tag, .A_Button {
+    height: 3.33vw;
+    width: 10.21vw;
+    border-radius: 1.67vw;
+    border: 0.07vw solid var(--black);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0.83vw, 1.11vw, 0.90vw, 1.11vw;
+}
+#inactive {
+    background-color: var(--green);
+    border: 0.07vw solid var(--green);
+}
+#inactive:hover  {
+    background-color: var(--dark-green);
+    border: 0.07vw solid var(--dark-green);
+}
+.A_Button-Big {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5vw;
+    height: 6.25vw;
+    width: 14.58vw;
+}
+
+.A_Menu-Routes, .A_Menu-Advice, .A_Menu-Way {
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    gap: 1.11vw;
+}
+
+.A_Back {
+    display: flex;
+    align-items: center;
+    justify-content: left;
+}
+
+.A_Button-More {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 5vw;
+    width: 98.89vw;
+    border-radius: 4.10vw;
+    border: 0.07vw solid #1c1c1c57;
+}
+.A_Button-More .p-desktop {
+    color: #1c1c1c57;
+}

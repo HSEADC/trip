@@ -100,6 +100,11 @@ module.exports = {
       filename: './index.html'
     }),
 
+    // Article
+    new HtmlWebpackPlugin({
+      template: './src/components.html',
+      filename: './components.html'
+    }),
 
     // // Article
     // new HtmlWebpackPlugin({
