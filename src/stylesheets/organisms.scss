@@ -2,9 +2,26 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
+    border-radius: 0px 0px 2.22vw 2.22vw;
+    padding:  2.22vw 3.06vw 3.06vw 2.22vw;
+    background: var(--white);
 }
 .icons {
     display: flex;
     align-items: center;
     gap: 4.44vw;
+}
+
+.footer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 2.22vw 2.22vw 0px 0px;
+    padding:  2.22vw 3.06vw 3.06vw 2.22vw;
+    background: var(--white);
+}
+.socials {
+    display: flex;
+    align-items: center;
+    gap: 1.67vw;
 }

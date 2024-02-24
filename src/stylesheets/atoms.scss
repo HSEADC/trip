@@ -187,7 +187,7 @@
 
 .A_Search {
     display: flex;
-    padding: 1.39vw 16.25vw 1.39vw 1.67vw;
+    padding: 0.97vw 16.25vw 0.97vw 1.67vw;
     align-items: center;
     gap: 0.56vw;
     border-radius: 4.1vw;
@@ -207,6 +207,12 @@
     letter-spacing: 0.21vw;
     padding-top: 0.21vw;
 }
+
+.Symbol, .Symbol img {
+    height: 4.44vw;
+    width: 4.44vw;
+}
+
 
 .Logo {
     display: flex;
