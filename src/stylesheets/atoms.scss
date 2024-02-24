@@ -162,6 +162,10 @@
     gap: 1.11vw;
 }
 
+.A_Menu-Routes:hover, .A_Menu-Advice:hover, .A_Menu-Way:hover {
+    color: var(--purple)
+}
+
 .A_Back {
     display: flex;
     align-items: center;
@@ -179,4 +183,37 @@
 }
 .A_Button-More .p-desktop {
     color: #1c1c1c57;
+}
+
+.A_Search {
+    display: flex;
+    padding: 1.39vw 16.25vw 1.39vw 1.67vw;
+    align-items: center;
+    gap: 0.56vw;
+    border-radius: 4.1vw;
+    border: 0.07vw solid var(--black);
+    opacity: 0.3;
+}
+
+.logo-text {
+    color: var(--black);
+    text-align: center;
+    font-family: MabryPro;
+    font-size: 2.78vw;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 84%;
+    text-transform: uppercase;
+    letter-spacing: 0.21vw;
+    padding-top: 0.21vw;
+}
+
+.Logo {
+    display: flex;
+    align-items: center;
+    gap: 0.97vw;
+}
+.Logo img {
+    height: 6.25vw;
+    width: 6.25vw;
 }
