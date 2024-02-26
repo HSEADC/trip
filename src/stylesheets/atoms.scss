@@ -163,7 +163,8 @@
 }
 
 .A_Menu-Routes:hover, .A_Menu-Advice:hover, .A_Menu-Way:hover {
-    color: var(--purple)
+    color: var(--purple);
+    cursor: pointer; 
 }
 
 .A_Back {
@@ -195,6 +196,10 @@
     opacity: 0.3;
 }
 
+.A_Search:hover {
+    cursor: pointer;
+}
+
 .logo-text {
     color: var(--black);
     text-align: center;
@@ -211,6 +216,9 @@
 .Symbol, .Symbol img {
     height: 4.44vw;
     width: 4.44vw;
+}
+.Symbol:hover {
+    cursor: pointer;
 }
 
 
