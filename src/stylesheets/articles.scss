@@ -1,0 +1,81 @@
+.background {
+    margin-top: 6.39vw;
+    position: absolute;
+    width: 100vw;
+    height: 62.01vw;
+    z-index: -1;
+}
+.background img {
+    width: 100vw;
+    height: 62.01vw;
+}
+
+.Article-Name, .base {
+    display: flex;
+    position: relative;
+    margin: auto;
+    margin-top: 39.03vw;
+    flex-direction: row;
+    width: 98.89vw;
+    height: 34.51vw;
+    background-color: var(--white);
+    border-radius: 2.22vw;
+    box-sizing: border-box;
+    padding: 2.78vw;
+    gap: 8vw;
+    overflow: hidden;
+}
+.authour {
+    width: 45.93vw;
+}
+.authour .Q_Avatar {
+    margin-bottom: 1.6vw;
+}
+.description {
+    display: flex;
+    flex-direction: column;
+    gap: 1.67vw;
+}
+.tags {
+    display: flex;
+    flex-direction: row;
+    gap: 0.56vw;
+}
+#width {
+    width: 12.92vw;
+}
+.base {
+    margin-top: 0.56vw;
+    height: 56vw;
+    gap: 17vw;
+}
+.mini-menu {
+    display: flex;
+    flex-direction: column;
+    gap: 0.69vw;
+}
+.paragraph {
+    display: flex;
+    flex-direction: column;
+    gap: 1.32vw;
+}
+.paragraph p {
+    width: 61.88vw;;
+}
+.photo {
+    margin-top: 1.46vw;
+    width: 61.88vw;
+    height: 439px;
+    overflow: hidden;
+    border-radius: 1.11vw;
+}
+.photo img {
+    width: 61.88vw;
+    height: 439px;
+}
+#height {
+    height: 98vw;
+}
+#margin {
+    margin-bottom: 3.13vw;
+}

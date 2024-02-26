@@ -4,6 +4,7 @@
 @import 'stylesheets/quarks.scss';
 @import 'stylesheets/atoms.scss';
 @import 'stylesheets/organisms.scss';
+@import 'stylesheets/articles.scss';
 @font-face {
     font-family: 'MabryPro';
     src: url('fonts/MabryPro-Black.ttf') format("TrueType");

@@ -1,4 +1,9 @@
 // иконки
+a {
+    text-decoration: none;
+    color: var(--black);
+}
+
 
 .Q_Icons-Burger, .Q_Icons-Cross, .Q_Icons-Search, .Q_Icons-Plus, .Q_Social-TG, .Q_Social-IG, .Q_Social-VK, .Q_Social-Dzen {
     display: flex;

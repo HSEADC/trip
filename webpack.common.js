@@ -100,17 +100,17 @@ module.exports = {
       filename: './index.html'
     }),
 
-    // Article
+    // компоненты
     new HtmlWebpackPlugin({
       template: './src/components.html',
       filename: './components.html'
     }),
 
-    // // Article
-    // new HtmlWebpackPlugin({
-    //   template: './src/article.html',
-    //   filename: './article.html'
-    // }),
+    // Article -> Tarusa
+    new HtmlWebpackPlugin({
+      template: './src/articles/tarusa.html',
+      filename: './articles/tarusa.html'
+    }),
 
 
 
