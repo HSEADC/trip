@@ -12,6 +12,21 @@
     width: 2.22vw;
 }
 
+.Q_Avatar {
+    display: flex;
+    overflow: hidden;
+    width: 6.94vw;
+    height: 6.94vw;
+    justify-content: center;
+    align-items: center;
+    border-radius: 6.94vw;
+}
+.Q_Avatar img {
+    width: 6.94vw;
+    height: 8.68vw;
+    flex-shrink: 0;
+}
+
 // музыка
 
  .Q_Sound {
@@ -71,4 +86,7 @@
     transform: rotate(-23.7deg);
     height: 5.69vw;
     width: 5.21vw;
+}
+#green {
+    background-color: var(--dark-green);
 }
