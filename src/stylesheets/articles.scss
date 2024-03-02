@@ -1,20 +1,19 @@
 .background {
-    margin-top: 6.39vw;
     position: absolute;
     width: 100vw;
-    height: 62.01vw;
+    height: 33.89vw;
     z-index: -1;
 }
 .background img {
     width: 100vw;
-    height: 62.01vw;
+    height: 33.89vw;
 }
 
 .Article-Name, .base {
     display: flex;
     position: relative;
     margin: auto;
-    margin-top: 39.03vw;
+    margin-top: 20.57vw;
     flex-direction: row;
     width: 98.89vw;
     height: 34.51vw;
@@ -78,4 +77,8 @@
 }
 #margin {
     margin-bottom: 3.13vw;
+}
+
+#opacity:hover {
+    opacity: 1;
 }
