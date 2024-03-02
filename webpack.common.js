@@ -112,6 +112,12 @@ module.exports = {
       filename: './articles/tarusa.html'
     }),
 
+    // Article -> Blogers
+    new HtmlWebpackPlugin({
+      template: './src/articles/blogers.html',
+      filename: './articles/blogers.html'
+    }),
+
 
 
     // Partials
