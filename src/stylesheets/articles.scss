@@ -16,7 +16,7 @@
     margin-top: 20.57vw;
     flex-direction: row;
     width: 98.89vw;
-    height: 34.51vw;
+    height: auto;
     background-color: var(--white);
     border-radius: 2.22vw;
     box-sizing: border-box;
@@ -45,7 +45,6 @@
 }
 .base {
     margin-top: 0.56vw;
-    height: 56vw;
     gap: 17vw;
 }
 .mini-menu {
