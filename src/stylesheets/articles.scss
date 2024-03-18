@@ -63,13 +63,13 @@
 .photo {
     margin-top: 1.46vw;
     width: 61.88vw;
-    height: 439px;
+    height: 30.486vw;
     overflow: hidden;
     border-radius: 1.11vw;
 }
 .photo img {
     width: 61.88vw;
-    height: 439px;
+    height: 30.486vw;
 }
 #height {
     height: 98vw;
@@ -84,4 +84,26 @@
 
 #without-gap {
     margin-top: 0.56vw;
+}
+
+.photosquare {
+    margin-top: 1.46vw;
+    display: flex;
+    gap: 0.556vw; 
+    flex-direction: row;
+}
+
+.square {
+    width: 20.417vw;
+    height: 20.417vw;
+    border-radius: 1.111vw;
+    overflow: hidden;
+}
+.square img {
+    width: 20.417vw;
+}
+
+#baseblogers {
+    gap: 11.2vw;
+    height: 42.986vw;
 }
