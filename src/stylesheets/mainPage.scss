@@ -41,7 +41,7 @@
     padding-left: 1.67vw;
     padding-right: 1.67vw;
 }
-.Long-card, .squareCard {
+.Long-card, .squareCard, .squareCard-long {
     border-radius: 2.22vw;
     overflow: hidden;
     display: flex;
@@ -50,18 +50,27 @@
     flex-direction: column;
     align-items: center;
     justify-content: end;
-    // background-image: url("../images/cards/Tarusa.png");
+    // background-image: url("./images/cards/Tarusa.png");
+    background-size: cover;
 }
 .Long-card img, .squareCard img {
     position: relative;
     top: 4vw;
     width: 47.78vw;
 }
-.description-card, .desc-square-card {
+.wheel img{
+    top: 0vw;
+    height: 23.33vw;
+    width: auto;
+    right: -26vw;
+}
+.squareCard-long .desc-square-card-test {
+    margin-left: 0.83vw;
+}
+.description-card, .desc-square-card, .desc-square-card-test {
     position: absolute;
     width: 46.67vw;
     height: 9.44vw;
-    flex-shrink: 0;
     display: flex;
     flex-direction: column;
     gap: 0.83vw;
@@ -71,6 +80,30 @@
     padding: 1.67vw;
     box-sizing: border-box;
     margin-bottom: 0.56vw;
+    justify-content: space-between;
+}
+.squareCard-long {
+    flex-direction: row;
+    justify-content: space-between;
+}
+.rasstoyanie {
+    display: flex;
+    flex-direction: column;
+    gap: 0.83vw;
+}
+
+.desc-square-card-test {
+    width: 22.22vw;
+    height: 22.22vw;
+}
+.desc-square-card-test .A_Tag {
+}
+.squareCard .Q_Sound {
+    position: absolute;
+}
+.playlist {
+    align-items: center;
+    justify-content: center;
 }
 .otstup {
     margin-top: 2.22vw;
@@ -106,4 +139,100 @@
 }
 .CardStory {
     opacity: 0.3;
+}
+#white-svg img{
+    fill: var(--white);
+}
+
+.form {
+    display: flex;
+    padding-left: 1.67vw;
+    padding-right: 1.67vw;
+    border-radius: 2.22vw;
+    box-sizing: border-box;
+    overflow: hidden;
+    margin: auto;
+    margin-top: 9.17vw;
+    width: 96.67vw;
+    height: 25.35vw;
+    flex-direction: row;
+    align-items: center;
+    background-color: var(--green);
+}
+.form:first-child{
+    align-items: start;
+}
+
+.subscribe {
+    display: flex;
+    flex-direction: row;
+    gap: 6.94vw;
+    position: absolute;
+    border-radius: 1.67vw;
+    background-color: var(--white);
+    width: 71.60vw;
+    height: 24.24vw;
+    padding: 3.47vw;
+    box-sizing: border-box;
+}
+.text-adv {
+    display: flex;
+    flex-direction: column;
+    gap: 2.99vw;
+    width: 29.86vw;
+
+}
+
+.forma-back {
+    margin-top: -4vw;
+    margin-left: -11vw;
+    color: var(--dark-green);
+    text-align: center;
+    font-family: MabryPro;
+    font-size: 21.74vw;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 75%; 
+    letter-spacing: -0.21vw;
+}
+
+.fill-in {
+    font-family: MabryPro;
+    font-size: 1.25vw;
+    font-weight: 400;
+    line-height: 1.6vw;
+    letter-spacing: -0.01em;
+    text-align: left;
+}
+#my-form {
+    display: flex;
+    flex-direction: column;
+    gap: 0.76vw;
+}
+.name input, .email input, button {
+    display: flex;
+    width: 27.36vw;
+    height: 5.07vw;
+    padding: 0vw 23.19vw 0vw 1.74vw;
+    box-sizing: border-box;
+    align-items: center;
+    border-radius: 4.1vw;
+    border: 0.2vw solid var(--blue-grey);
+}
+
+.button {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+button p {
+    text-align: center;
+}
+.action {
+    background-color: var(--green);
+    border: 0.07vw solid var(--green);
+}
+.action:hover  {
+    background-color: var(--dark-green);
+    border: 0.07vw solid var(--dark-green);
 }
