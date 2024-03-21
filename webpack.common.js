@@ -80,13 +80,6 @@ module.exports = {
         }
       },
       {
-        test: /\.gif/,
-        type: 'asset/resource',
-        generator: {
-          filename: 'images/[hash][ext][query]'
-        }
-      },
-      {
         test: /\.(ttf|otf)$/i,
         loader: 'file-loader',
         options: {
