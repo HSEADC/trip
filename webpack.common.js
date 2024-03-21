@@ -80,6 +80,13 @@ module.exports = {
         }
       },
       {
+        test: /\.gif/,
+        type: 'asset/resource',
+        generator: {
+          filename: 'images/[hash][ext][query]'
+        }
+      },
+      {
         test: /\.(ttf|otf)$/i,
         loader: 'file-loader',
         options: {
@@ -98,6 +105,12 @@ module.exports = {
     new HtmlWebpackPlugin({
       template: './src/index.html',
       filename: './index.html'
+    }),
+
+    // маршруты
+    new HtmlWebpackPlugin({
+      template: './src/Trips.html',
+      filename: './Trips.html'
     }),
 
     // компоненты

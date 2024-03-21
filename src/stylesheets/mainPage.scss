@@ -34,6 +34,7 @@
 }
 .more:hover {
     opacity: 1;
+    cursor: pointer; 
 }
 .trips {
     margin: auto;
@@ -378,3 +379,4 @@ button p {
     border-right: 10vw solid var(--purple);
     border-bottom: 10vw solid var(--purple);
 }
+
