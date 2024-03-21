@@ -289,26 +289,6 @@ button p {
     top: 9vw;
     left: 85vw;
 }
-// .Vk-social, .Dzen-social {
-//     display: flex;
-//     align-items: center;
-//     justify-content: center;
-//     position: absolute;
-//     left: -8vw;
-// }
-// .Dzen-social {
-//     left: 15vw;
-// }
-// .Socia
-
-// .Social-VK {
-//     position: absolute;
-//     margin-top: 4.26vw;
-//     margin-left: -4.03vw;
-// }
-// .Social-VK img{
-//     width: 14vw;
-// }
 .big-footer-socials {
     display: flex;
     flex-direction: column;
@@ -343,10 +323,10 @@ button p {
     padding-bottom: 4vw;
 }
 .Dzen-social {
-    margin-top: -24vw;
+    margin-top: -7vw;
     margin-left: -11vw;
     width: 38.75vw;
-    height: 38.75vw; 
+    height: 21.75vw; 
     display: flex;
     justify-content: center;
     align-items: end;
@@ -389,4 +369,12 @@ button p {
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+.Vk-social:hover, .TG-social:hover, .Nelz-social:hover {
+    background-color: var(--purple);
+}
+.Dzen-social:hover::after {
+    border-right: 10vw solid var(--purple);
+    border-bottom: 10vw solid var(--purple);
 }
