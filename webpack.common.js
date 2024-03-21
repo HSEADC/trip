@@ -118,6 +118,12 @@ module.exports = {
       filename: './articles/blogers.html'
     }),
 
+    // Article -> Nizhny
+    new HtmlWebpackPlugin({
+      template: './src/articles/nizhny.html',
+      filename: './articles/nizhny.html'
+    }),
+
 
 
     // Partials
