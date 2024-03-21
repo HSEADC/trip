@@ -20,12 +20,12 @@ var form = document.getElementById("my-form");
                   if (Object.hasOwn(data, 'errors')) {
                     status.innerHTML = data["errors"].map(error => error["message"]).join(", ")
                   } else {
-                    status.innerHTML = "Ой! Что-то не так"
+                    status.innerHTML = "Ой! Что-то не так";
                   }
                 })
               }
             }).catch(error => {
-              status.innerHTML = "Ой! Что-то не так"
+              status.innerHTML = "Ой! Что-то не так";
             });
           }
           form.addEventListener("submit", handleSubmit)

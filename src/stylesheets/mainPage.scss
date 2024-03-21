@@ -50,25 +50,27 @@
     flex-direction: column;
     align-items: center;
     justify-content: end;
-    // background-image: url("./images/cards/Tarusa.png");
     background-size: cover;
+
+
+}
+.Tarusa {
+    background-image: url("./images/cards/Tarusa.png");
+    background-size: cover;
+
 }
 .Long-card img, .squareCard img {
     position: relative;
-    top: 4vw;
     width: 47.78vw;
 }
-.wheel img{
-    top: 0vw;
-    height: 23.33vw;
-    width: auto;
-    right: -26vw;
+.wheel {
+    background-image: url("./images/cards/wheel.svg");
+    background-size: cover;
 }
 .squareCard-long .desc-square-card-test {
     margin-left: 0.83vw;
 }
 .description-card, .desc-square-card, .desc-square-card-test {
-    position: absolute;
     width: 46.67vw;
     height: 9.44vw;
     display: flex;
@@ -76,7 +78,6 @@
     gap: 0.83vw;
     border-radius: 1.67vw;
     background-color: var(--white);
-    z-index: 1;
     padding: 1.67vw;
     box-sizing: border-box;
     margin-bottom: 0.56vw;
@@ -84,7 +85,10 @@
 }
 .squareCard-long {
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: start;
+}
+.long {
+    margin-bottom: 0vw;
 }
 .rasstoyanie {
     display: flex;
@@ -96,14 +100,15 @@
     width: 22.22vw;
     height: 22.22vw;
 }
-.desc-square-card-test .A_Tag {
-}
-.squareCard .Q_Sound {
-    position: absolute;
-}
-.playlist {
+
+.playlist, .playlist2 {
+    background-image: url("./images/cards/playlist1.png");
+    background-size: cover;
     align-items: center;
     justify-content: center;
+}
+.playlist2 {
+    background-image: url("./images/cards/playlist2.png");
 }
 .otstup {
     margin-top: 2.22vw;
@@ -116,13 +121,8 @@
 .squareCard {
     width: 23.33vw;
 }
-.squareCard img {
-    top: 0vw;
-    width: 23.33vw;
-}
-.squareCard:nth-child(1) img {
-    transform: scaleX(-1);
-}
+
+
 .desc-square-card {
     width: 22.22vw;
 }
@@ -140,28 +140,24 @@
 .CardStory {
     opacity: 0.3;
 }
-#white-svg img{
-    fill: var(--white);
-}
 
 .form {
     display: flex;
-    padding-left: 1.67vw;
-    padding-right: 1.67vw;
+    padding-left: 0.86vw;
+    padding-right: 0.86vw;
     border-radius: 2.22vw;
     box-sizing: border-box;
     overflow: hidden;
     margin: auto;
-    margin-top: 9.17vw;
+    margin-top: 17.15vw;
     width: 96.67vw;
     height: 25.35vw;
     flex-direction: row;
     align-items: center;
     background-color: var(--green);
+    justify-content: end;
 }
-.form:first-child{
-    align-items: start;
-}
+
 
 .subscribe {
     display: flex;
@@ -184,7 +180,7 @@
 }
 
 .forma-back {
-    margin-top: -4vw;
+    margin-top: 47vw;
     margin-left: -11vw;
     color: var(--dark-green);
     text-align: center;
@@ -213,11 +209,17 @@
     display: flex;
     width: 27.36vw;
     height: 5.07vw;
-    padding: 0vw 23.19vw 0vw 1.74vw;
+    padding-left: 1.74vw;
     box-sizing: border-box;
     align-items: center;
     border-radius: 4.1vw;
     border: 0.2vw solid var(--blue-grey);
+    font-family: MabryPro;
+    font-size: 1.25vw;
+    font-weight: 400;
+    line-height: 1.6vw;
+    letter-spacing: -0.01em;
+    text-align: left;
 }
 
 .button {
@@ -235,4 +237,156 @@ button p {
 .action:hover  {
     background-color: var(--dark-green);
     border: 0.07vw solid var(--dark-green);
+}
+
+.family {
+    background-image: url("./images/cards/bag.png");
+}
+.apps {
+    background-image: url("./images/cards/phone.png");
+}
+.dnforget {
+    background-image: url("./images/cards/hm.png");
+}
+.map {
+    background-image: url("./images/cards/map.png");
+}
+.winter {
+    background-image: url("./images/cards/snow.png");
+}
+.festival {
+    background-image: url("./images/cards/festival.png");
+}
+.bloggers {
+    background-image: url("./images/cards/blogger.png");
+}
+.kids {
+    background-image: url("./images/cards/kids.png");
+}
+
+.overlap {
+    margin-top: -36.7vw;
+    margin-left: 5.42vw;
+    position: absolute;
+    z-index: 1;
+}
+.character img{
+    width: 24.65vw;
+}
+.button-png img{
+    width: 6.53vw;
+}
+.pin img{
+    width: 15.21vw;
+}
+.pin {
+    position: absolute;
+    top: 29vw;
+    left: 50vw;
+}
+.button-png {
+    position: absolute;
+    top: 9vw;
+    left: 85vw;
+}
+// .Vk-social, .Dzen-social {
+//     display: flex;
+//     align-items: center;
+//     justify-content: center;
+//     position: absolute;
+//     left: -8vw;
+// }
+// .Dzen-social {
+//     left: 15vw;
+// }
+// .Socia
+
+// .Social-VK {
+//     position: absolute;
+//     margin-top: 4.26vw;
+//     margin-left: -4.03vw;
+// }
+// .Social-VK img{
+//     width: 14vw;
+// }
+.big-footer-socials {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    gap: 11.49vw;
+    margin-top: 11.88vw;
+    padding-left: 1.67vw;
+    padding-right: 1.67vw;
+}
+.big-socials {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.Vk-social {
+    width: 37vw;
+    height: 18vw;
+    transform: rotate(37deg);
+    background-color: #07F;
+    border-radius: 0 0 100vw 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2vw;
+    margin-left: -6vw;
+}
+.Vk-social img {
+    width: 19.17vw;
+    padding-bottom: 4vw;
+}
+.Dzen-social {
+    margin-top: -24vw;
+    margin-left: -11vw;
+    width: 38.75vw;
+    height: 38.75vw; 
+    display: flex;
+    justify-content: center;
+    align-items: end;
+}
+.Dzen-social::after {
+    content: "";
+    margin-top: -10vw;
+    position: absolute;
+    width: 20vw;
+    height: 20vw;    
+    border-left: 10vw solid var(--white);
+    border-right: 10vw solid #FFBD18;
+    border-top: 10vw solid var(--white);
+    border-bottom: 10vw solid #FFBD18;
+    border-radius: 10vw 150vw 120vw 150vw;
+    transform: rotate(42deg);
+    z-index: -1;
+}
+.Dzen-social img {
+    width: 15.75vw;
+    padding-bottom: 0.5vw;
+    padding-left: 1vw;
+}
+.TG-social {
+    width: 38vw;
+    height: 11.25vw;
+    transform: rotate(-40deg);
+    background-color: #2AABEE;
+    margin-left: -11.2vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.Nelz-social {
+    width: 22.01vw;
+    height: 22.01vw;
+    border-radius: 22.01vw;
+    background: #FD94D7;
+    margin-left: -10.8vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
