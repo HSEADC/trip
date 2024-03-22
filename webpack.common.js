@@ -124,10 +124,16 @@ module.exports = {
       filename: './articles/nizhny.html'
     }),
 
- // Article -> Nizhny
+ // Article -> Sergiev
  new HtmlWebpackPlugin({
   template: './src/articles/sergiev.html',
   filename: './articles/sergiev.html'
+}),
+
+ // Article -> Suzdal
+ new HtmlWebpackPlugin({
+  template: './src/articles/suzdal.html',
+  filename: './articles/suzdal.html'
 }),
 
 
