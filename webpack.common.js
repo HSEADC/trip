@@ -148,6 +148,12 @@ module.exports = {
   filename: './articles/spas.html'
 }),
 
+ // Article -> Vologda
+ new HtmlWebpackPlugin({
+  template: './src/articles/vologda.html',
+  filename: './articles/vologda.html'
+}),
+
 
     // Partials
     new HtmlWebpackPartialsPlugin([
