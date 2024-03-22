@@ -142,6 +142,11 @@ module.exports = {
   filename: './articles/klin.html'
 }),
 
+ // Article -> Spas
+ new HtmlWebpackPlugin({
+  template: './src/articles/spas.html',
+  filename: './articles/spas.html'
+}),
 
 
     // Partials
