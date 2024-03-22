@@ -106,6 +106,12 @@ module.exports = {
       filename: './Trips.html'
     }),
 
+    // Советы
+    new HtmlWebpackPlugin({
+      template: './src/Advices.html',
+      filename: './Advices.html'
+    }),
+
     // компоненты
     new HtmlWebpackPlugin({
       template: './src/components.html',
