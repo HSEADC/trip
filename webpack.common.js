@@ -136,6 +136,13 @@ module.exports = {
   filename: './articles/suzdal.html'
 }),
 
+ // Article -> Klin
+ new HtmlWebpackPlugin({
+  template: './src/articles/klin.html',
+  filename: './articles/klin.html'
+}),
+
+
 
     // Partials
     new HtmlWebpackPartialsPlugin([
