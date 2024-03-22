@@ -154,6 +154,12 @@ module.exports = {
   filename: './articles/vologda.html'
 }),
 
+ // Article -> Karelia
+ new HtmlWebpackPlugin({
+  template: './src/articles/karelia.html',
+  filename: './articles/karelia.html'
+}),
+
 
     // Partials
     new HtmlWebpackPartialsPlugin([
