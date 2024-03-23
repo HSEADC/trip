@@ -160,6 +160,12 @@ module.exports = {
   filename: './articles/karelia.html'
 }),
 
+ // Article -> Ryzan
+ new HtmlWebpackPlugin({
+  template: './src/articles/ryzan.html',
+  filename: './articles/ryzan.html'
+}),
+
 
     // Partials
     new HtmlWebpackPartialsPlugin([
