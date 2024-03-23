@@ -178,6 +178,12 @@ module.exports = {
   filename: './articles/shatura.html'
 }),
 
+ // Article -> Kostroma
+ new HtmlWebpackPlugin({
+  template: './src/articles/kostroma.html',
+  filename: './articles/kostroma.html'
+}),
+
     // Partials
     new HtmlWebpackPartialsPlugin([
       {
