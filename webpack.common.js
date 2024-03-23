@@ -196,6 +196,12 @@ module.exports = {
   filename: './articles/kolomna.html'
 }),
 
+ // Article -> Zelenograd
+ new HtmlWebpackPlugin({
+  template: './src/articles/zelenograd.html',
+  filename: './articles/zelenograd.html'
+}),
+
     // Partials
     new HtmlWebpackPartialsPlugin([
       {
