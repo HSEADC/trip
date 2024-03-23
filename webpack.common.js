@@ -190,6 +190,12 @@ module.exports = {
   filename: './articles/ivanovo.html'
 }),
 
+ // Article -> Kolomna
+ new HtmlWebpackPlugin({
+  template: './src/articles/kolomna.html',
+  filename: './articles/kolomna.html'
+}),
+
     // Partials
     new HtmlWebpackPartialsPlugin([
       {
