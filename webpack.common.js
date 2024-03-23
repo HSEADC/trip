@@ -202,6 +202,12 @@ module.exports = {
   filename: './articles/zelenograd.html'
 }),
 
+ // Article -> Tula
+ new HtmlWebpackPlugin({
+  template: './src/articles/tula.html',
+  filename: './articles/tula.html'
+}),
+
     // Partials
     new HtmlWebpackPartialsPlugin([
       {
