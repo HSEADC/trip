@@ -166,6 +166,12 @@ module.exports = {
   filename: './articles/ryzan.html'
 }),
 
+ // Article -> Podolsk
+ new HtmlWebpackPlugin({
+  template: './src/articles/podolsk.html',
+  filename: './articles/podolsk.html'
+}),
+
 
     // Partials
     new HtmlWebpackPartialsPlugin([
