@@ -208,6 +208,12 @@ module.exports = {
   filename: './articles/tula.html'
 }),
 
+ // Article -> Tver
+ new HtmlWebpackPlugin({
+  template: './src/articles/tver.html',
+  filename: './articles/tver.html'
+}),
+
     // Partials
     new HtmlWebpackPartialsPlugin([
       {
