@@ -172,6 +172,11 @@ module.exports = {
   filename: './articles/podolsk.html'
 }),
 
+ // Article -> Shatura
+ new HtmlWebpackPlugin({
+  template: './src/articles/shatura.html',
+  filename: './articles/shatura.html'
+}),
 
     // Partials
     new HtmlWebpackPartialsPlugin([
