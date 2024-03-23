@@ -214,6 +214,12 @@ module.exports = {
   filename: './articles/tver.html'
 }),
 
+ // Article -> Vereya
+ new HtmlWebpackPlugin({
+  template: './src/articles/vereya.html',
+  filename: './articles/vereya.html'
+}),
+
     // Partials
     new HtmlWebpackPartialsPlugin([
       {
