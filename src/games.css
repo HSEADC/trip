@@ -1,0 +1,24 @@
+@import 'stylesheets/reset.scss';
+@font-face {
+    font-family: 'MabryPro';
+    src: url('fonts/MabryPro-Black.ttf') format("TrueType");
+    font-weight: 700;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'MabryPro';
+    src: url('fonts/MabryPro-Medium.ttf') format("TrueType");
+    font-weight: 500;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'MabryPro';
+    src: url('fonts/MabryPro-Regular.ttf') format("TrueType");
+    font-weight: 400;
+    font-style: normal;
+}
+@import 'stylesheets/vars.scss';
+@import 'stylesheets/games.scss';
+@import 'stylesheets/quarks.scss';
+@import 'stylesheets/atoms.scss';
+@import 'stylesheets/organisms.scss';

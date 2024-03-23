@@ -10,7 +10,7 @@ module.exports = {
   entry: {
     index: './src/index.js',
     jstest: './src/jstest.js',
-    // wheel: './src/wheel.js',
+    wheel: './src/wheel.js',
   },
   output: {
     filename: '[name].[contenthash].js',
@@ -107,7 +107,7 @@ module.exports = {
     new HtmlWebpackPlugin({
       template: './src/games/wheel.html',
       filename: './games/wheel.html',
-      // chunks: ["/wheel"]
+      chunks: ["/wheel"]
     }),
 
     // Index
