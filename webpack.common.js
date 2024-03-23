@@ -8,7 +8,9 @@ const path = require('path')
 
 module.exports = {
   entry: {
-    index: './src/index.js'
+    index: './src/index.js',
+    jstest: './src/jstest.js',
+    // wheel: './src/wheel.js',
   },
   output: {
     filename: '[name].[contenthash].js',
@@ -94,6 +96,20 @@ module.exports = {
       chunkFilename: '[id].[contenthash].css'
     }),
 
+    // Тесты
+    new HtmlWebpackPlugin({
+      template: './src/games/test-city.html',
+      filename: './games/test-city.html',
+      chunks: ["/test-city"]
+    }),
+    
+    // В пути -> Триповское колесо
+    new HtmlWebpackPlugin({
+      template: './src/games/wheel.html',
+      filename: './games/wheel.html',
+      // chunks: ["/wheel"]
+    }),
+
     // Index
     new HtmlWebpackPlugin({
       template: './src/index.html',
@@ -110,6 +126,18 @@ module.exports = {
     new HtmlWebpackPlugin({
       template: './src/Advices.html',
       filename: './Advices.html'
+    }),
+
+    // Советы ->
+    new HtmlWebpackPlugin({
+      template: './src/advices/dont-forget.html',
+      filename: './advices/dont-forget.html'
+    }),
+
+    // В пути
+    new HtmlWebpackPlugin({
+      template: './src/games.html',
+      filename: './games.html'
     }),
 
     // компоненты
