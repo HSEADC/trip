@@ -298,6 +298,12 @@ module.exports = {
   filename: './articles/ideal.html'
 }),
 
+ // Article -> Winter
+ new HtmlWebpackPlugin({
+  template: './src/articles/winter.html',
+  filename: './articles/winter.html'
+}),
+
     // Partials
     new HtmlWebpackPartialsPlugin([
       {
