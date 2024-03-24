@@ -244,6 +244,12 @@ module.exports = {
   filename: './articles/yaroslavl.html'
 }),
 
+ // Article -> Piter
+ new HtmlWebpackPlugin({
+  template: './src/articles/piter.html',
+  filename: './articles/piter.html'
+}),
+
     // Partials
     new HtmlWebpackPartialsPlugin([
       {
