@@ -292,6 +292,12 @@ module.exports = {
   filename: './articles/apps.html'
 }),
 
+ // Article -> Ideal
+ new HtmlWebpackPlugin({
+  template: './src/articles/ideal.html',
+  filename: './articles/ideal.html'
+}),
+
     // Partials
     new HtmlWebpackPartialsPlugin([
       {
