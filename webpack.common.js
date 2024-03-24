@@ -256,6 +256,12 @@ module.exports = {
   filename: './articles/bor.html'
 }),
 
+ // Article -> Korolev
+ new HtmlWebpackPlugin({
+  template: './src/articles/korolev.html',
+  filename: './articles/korolev.html'
+}),
+
     // Partials
     new HtmlWebpackPartialsPlugin([
       {
