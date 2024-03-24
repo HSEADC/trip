@@ -25,3 +25,50 @@
     align-items: center;
     gap: 1.67vw;
 }
+
+
+.menu-mobile {
+    display: none;
+    background-color: var(--white);
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 0px 0px 2.22vw 2.22vw;
+    padding:  1.39vw 3.06vw 1.39vw 2.22vw;
+}
+.none {
+    display: none;
+    position: relative;
+    z-index: 1;
+}
+
+.mobile-popupMenu {
+    display: flex;
+    background-color: var(--white);
+    flex-direction: column;
+    justify-content: start;
+    border-radius: 0px 0px 2.22vw 2.22vw;
+    padding:  1.39vw 3.06vw 1.39vw 2.22vw;
+}
+.icons-mobile {
+    display: flex;
+    background-color: var(--white);
+    flex-direction: column;
+    justify-content: start;
+    gap: 1.33vw;
+}
+.burger-menu {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.blur-mobile {
+    display: none;
+    height: 100vh;
+    width: 100%;
+    position: fixed;
+    top: 0vw;
+    left: 0vw;
+    background: rgba(000, 000, 000, 0.4);
+    z-index: 1;
+}

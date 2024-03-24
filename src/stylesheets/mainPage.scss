@@ -32,6 +32,9 @@
     flex-direction: row;
     opacity: 0.3;
 }
+.more img {
+    width: 1.04vw;
+}
 .more:hover {
     opacity: 1;
     cursor: pointer; 
@@ -379,4 +382,13 @@ button p {
     border-right: 10vw solid var(--purple);
     border-bottom: 10vw solid var(--purple);
 }
-
+.beginning-mobile {
+    display: none;
+    margin: auto;
+    gap: 0.72vw;
+    align-items: self-start;
+    justify-content: self-start;
+    flex-direction: column;
+    padding-left: 1.67vw;
+    padding-right: 1.67vw;
+}

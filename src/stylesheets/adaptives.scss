@@ -1,0 +1,22 @@
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
+    // настройка основных моментов 
+    .menu-mobile {
+        display: flex;
+    }
+    .menu {
+        display: none;
+    }
+    .h1-desktop {
+        font-size: 4.44vw;
+        line-height: 3.96vw;
+    }
+
+    // главная
+
+    .beginning-mobile {
+        display: flex;
+    }
+    .beginning {
+        display: none;
+    }
+}
