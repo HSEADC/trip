@@ -9,8 +9,8 @@ const path = require('path')
 module.exports = {
   entry: {
     index: './src/index.js',
-    jstest: './src/jstest.js',
-    wheel: './src/wheel.js',
+    // jstest: './src/jstest.js',
+    // wheel: './src/wheel.js',
   },
   output: {
     filename: '[name].[contenthash].js',
@@ -100,14 +100,14 @@ module.exports = {
     new HtmlWebpackPlugin({
       template: './src/games/test-city.html',
       filename: './games/test-city.html',
-      chunks: ["/test-city"]
+      // chunks: ["/test-city"]
     }),
     
     // В пути -> Триповское колесо
     new HtmlWebpackPlugin({
       template: './src/games/wheel.html',
       filename: './games/wheel.html',
-      chunks: ["/wheel"]
+      // chunks: ["/wheel"]
     }),
 
     // Index

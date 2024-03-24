@@ -1,4 +1,4 @@
-import './games.css'
+// import './games.css'
 // function shuffle(array) {
 //     var currentIndex = array.length,
 //     randomIndex; 

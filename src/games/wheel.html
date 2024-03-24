@@ -5,15 +5,15 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Колесо фортуны</title>
 </head>
-<body class="wheelgames">
+<body id="blue-grey" class="wheelgames">
     <div class="menu">
-        <a href="index.html">
+        <a href="../index.html">
             <div class="Symbol">
                 <img src="../images/Logo/Union.svg" alt="">
             </div>
         </a>
         <div class="icons">
-            <a href="Trips.html">
+            <a href="../Trips.html">
                 <div class="A_Menu-Routes">
                     <div class="Q_Menu-Routes">
                         <img src="../images/Q_Menu/3dicons.png" alt="">
@@ -21,7 +21,7 @@
                     <p class="p-desktop">Маршруты</p>
                 </div>
             </a>
-            <a href="Advices.html">
+            <a href="../Advices.html">
                 <div class="A_Menu-Advice">
                         <div class="Q_Menu-Adviсe">
                             <img src="../images/Q_Menu/road-bag 1.png" alt="">
@@ -29,7 +29,7 @@
                         <p class="p-desktop">Советы</p>
                 </div>
             </a>
-            <a href="games.html">
+            <a href="../games.html">
                 <div class="A_Menu-Way">
                     <div class="Q_Menu-Way">
                         <img src="../images/Q_Menu/pin 1.png" alt="">
@@ -45,47 +45,49 @@
             <p class="p-desktop">Поиск</p>
         </div>
     </div>
-<!-- 
-    <div class="container">
-        <div class="SpinBTN"></div>
-        <div class="wheel">
-            <div class="number"><span>100s</span></div>
-            <div class="number"><span>100s</span></div>
-            <div class="number"><span>100s</span></div>
-            <div class="number"><span>100s</span></div>
-            <div class="number"><span>100s</span></div>
-        </div>
-    </div> -->
-
-    <div class="mainbox" id="mainbox">
-        <div class="box" id="box">
-            <div class="box1">
-                <span class="font span1"><h5>Клин</h5></span>
-                <span class="font span2"><h5>Таруса</h5></span>
-                <span class="font span3"><h5>Подольск</h5></span>
-                <span class="font span4"><h5>Шатура</h5></span>
-                <span class="font span5"><h5>Иваново</h5></span>
+    <div class="heading">
+        <h2 class="h2-desktop">Колесо фортуны</h2>
+        <div class="mainbox" id="mainbox">
+            <div class="box" id="box">
+                <div class="box1">
+                    <span class="font span1"><p class="p-desktop">Клин</p></span>
+                    <span class="font span2"><p class="p-desktop">Таруса</p></span>
+                    <span class="font span3"><p class="p-desktop">Подольск</p></span>
+                    <span class="font span4"><p class="p-desktop">Шатура</p></span>
+                    <span class="font span5"><p class="p-desktop">Иваново</p></span>
+                    <span class="font span6"><p class="p-desktop">Кострома</p></span>
+                </div>
+                <div class="box2">
+                    <span class="font span1"><p class="p-desktop">Клин</p></span>
+                    <span class="font span2"><p class="p-desktop">Таруса</p></span>
+                    <span class="font span3"><p class="p-desktop">Подольск</p></span>
+                    <span class="font span4"><p class="p-desktop">Шатура</p></span>
+                    <span class="font span5"><p class="p-desktop">Иваново</p></span>
+                    <span class="font span6"><p class="p-desktop">Кострома</p></span>
+                </div>
             </div>
-            <div class="box2">
-                <span class="font span1"><h5>Клин</h5></span>
-                <span class="font span2"><h5>Таруса</h5></span>
-                <span class="font span3"><h5>Подольск</h5></span>
-                <span class="font span4"><h5>Шатура</h5></span>
-                <span class="font span5"><h5>Иваново</h5></span>
-            </div>
-        </div>
-        <button class="spin" onclick="spinWheel()">Крутить</button>
-    </div>
-    <div id="popup" class="popup">
-        <div class="popup-content">
-            <span id="cityName"></span>
-            <p>Поздравляем! Вы выбрали город <span id="selectedCity"></span>. Нажмите на ссылку ниже, чтобы прочитать статью о нем:</p>
-            <a id="articleLink" href="#" target="_blank">Прочитать статью</a>
-            <button onclick="closePopup()">Закрыть</button>
+            <button class="spin" onclick="spinWheel()"><p class="p-desktop">Крутить</p></button>
         </div>
     </div>
-    
-
+    <div id="blue-grey" class="footer">
+        <div class="Symbol">
+            <img src="../images/Logo/Union.svg" alt="">
+        </div>
+        <div class="socials">
+            <div class="Q_Social-TG">
+                <img src="../images/Q_Social/TG.svg" alt="">
+            </div>
+            <div class="Q_Social-IG">
+                <img src="../images/Q_Social/IG.svg" alt="">
+            </div>
+            <div class="Q_Social-VK">
+                <img src="../images/Q_Social/VK.svg" alt="">
+            </div>
+            <div class="Q_Social-Dzen">
+                <img src="../images/Q_Social/Dzen.svg" alt="">
+            </div>
+        </div>
+    </div>
     <script>
     function shuffle(array) {
         var currentIndex = array.length,
@@ -102,8 +104,8 @@
         return array;
     }
     
-    let currentAngle = 0; // Переменная для хранения текущего угла поворота
-    let results = []; // Массив для хранения результатов поворотов
+    let currentAngle = 0;
+    let results = []; 
     
     function spinWheel() {
         const box = document.getElementById("box");
@@ -115,6 +117,8 @@
         let Podolsk = shuffle([1770, 2130, 2490]);
         let Shatura = shuffle([1910, 2170, 2530]);
         let Ivanovo = shuffle([1750, 2110, 2470]);
+        let Kostroma = shuffle([1750, 2110, 2470]);
+
     
         let newResults = shuffle([
             Klin[0],
@@ -122,17 +126,19 @@
             Podolsk[0],
             Shatura[0],
             Ivanovo[0],
+            Kostroma[0],
         ]);
     
-        results = results.concat(newResults); // Добавляем новые результаты к текущим
-    
+        results = results.concat(newResults); 
         if (Klin.includes(newResults[0])) SelectedItem = "Клин";
         if (Tarusa.includes(newResults[0])) SelectedItem = "Таруса";
         if (Podolsk.includes(newResults[0])) SelectedItem = "Подольск";
         if (Shatura.includes(newResults[0])) SelectedItem = "Шатура";
         if (Ivanovo.includes(newResults[0])) SelectedItem = "Иваново";
+        if (Kostroma.includes(newResults[0])) SelectedItem = "Кострома";
+
     
-        let rotationAngle = currentAngle + newResults[0]; // Вычисляем новый угол поворота
+        let rotationAngle = currentAngle + newResults[0]; 
     
         box.style.setProperty("transition", "all ease 5s");
         box.style.transform = "rotate(" + rotationAngle + "deg)";
@@ -142,9 +148,9 @@
             setTimeout(function () {
                 // alert
             });
-        }, 100); // Увеличили время, чтобы анимация не сбрасывалась слишком рано
+        }, 100); 
     
-        currentAngle = rotationAngle; // Обновляем текущий угол
+        currentAngle = rotationAngle; 
     }
     </script>
 </body>
