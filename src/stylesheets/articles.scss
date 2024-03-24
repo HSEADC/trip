@@ -25,7 +25,8 @@
     overflow: hidden;
 }
 .authour {
-    width: 45.93vw;
+    overflow: hidden;
+    width: 30vw;
 }
 .authour .Q_Avatar {
     margin-bottom: 1.6vw;
@@ -41,16 +42,18 @@
     gap: 0.56vw;
 }
 #width {
-    width: 12.92vw;
+    width: 13.92vw;
 }
 .base {
     margin-top: 0.56vw;
-    gap: 17vw;
 }
 .mini-menu {
     display: flex;
     flex-direction: column;
     gap: 0.69vw;
+}
+.mini-menu a {
+    width: 14vw;
 }
 .paragraph {
     display: flex;
@@ -420,9 +423,4 @@
 }
 .square img {
     width: 20.417vw;
-}
-
-#baseblogers {
-    gap: 11.2vw;
-    height: 42.986vw;
 }
