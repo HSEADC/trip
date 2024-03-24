@@ -262,6 +262,18 @@ module.exports = {
   filename: './articles/korolev.html'
 }),
 
+ // Article -> Vibrat
+ new HtmlWebpackPlugin({
+  template: './src/articles/vibrat.html',
+  filename: './articles/vibrat.html'
+}),
+
+ // Article -> Family
+ new HtmlWebpackPlugin({
+  template: './src/articles/family.html',
+  filename: './articles/family.html'
+}),
+
     // Partials
     new HtmlWebpackPartialsPlugin([
       {
