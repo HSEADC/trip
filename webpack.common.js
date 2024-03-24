@@ -274,6 +274,12 @@ module.exports = {
   filename: './articles/family.html'
 }),
 
+ // Article -> Children
+ new HtmlWebpackPlugin({
+  template: './src/articles/children.html',
+  filename: './articles/children.html'
+}),
+
     // Partials
     new HtmlWebpackPartialsPlugin([
       {
