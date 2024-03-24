@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Собери меня в Трип</title>
+</head>
+<body id="blue-grey">
+    <div class="menu">
+        <a href="../index.html">
+            <div class="Symbol">
+                <img src="../images/Logo/Union.svg" alt="">
+            </div>
+        </a>
+        <div class="icons">
+            <a href="../Trips.html">
+                <div class="A_Menu-Routes">
+                    <div class="Q_Menu-Routes">
+                        <img src="../images/Q_Menu/3dicons.png" alt="">
+                    </div>
+                    <p class="p-desktop">Маршруты</p>
+                </div>
+            </a>
+            <a href="../Advices.html">
+                <div class="A_Menu-Advice">
+                        <div class="Q_Menu-Adviсe">
+                            <img src="../images/Q_Menu/road-bag 1.png" alt="">
+                        </div>
+                        <p class="p-desktop">Советы</p>
+                </div>
+            </a>
+            <a href="../games.html">
+                <div class="A_Menu-Way">
+                    <div class="Q_Menu-Way">
+                        <img src="../images/Q_Menu/pin 1.png" alt="">
+                    </div>
+                    <p class="p-desktop">В пути</p>
+                </div>
+            </a>
+        </div>
+        <div class="A_Search">
+            <div class="Q_Icons-Search">
+                <img src="../images/Q_Icons/Search.svg" alt="">
+            </div>
+            <p class="p-desktop">Поиск</p>
+        </div>
+    </div>
+    <div class="heading gap">
+        <h2 class="h2-desktop">Собери меня в Трип</h2>
+        <p class="p-desktop">Кто-то разбросал все мои веди, кидай их&nbsp;мне и&nbsp;я&nbsp;сложу все в&nbsp;сумку</p>
+        <div class="pair droppable">
+            <img class="pers" src="../images/games/pers 1.png" alt="">
+            <img class="little-pers" src="../images/games/set4 1.png" alt="">
+        </div>
+        <div class="first-line">
+            <img class="circles draggable" src="../images/games/circles.png" alt="">
+            <img class="pin1 draggable" src="../images/games/pin 1.png" alt="">
+            <img class="set1 draggable" src="../images/games/set1 3.png" alt="">
+            <img class="set2 draggable" src="../images/games/set2 8.png" alt="">
+        </div>
+        <div class="Second-line">
+            <img class="set3-3 draggable" src="../images/games/set3 3.png" alt="">
+            <img class="set1-2 draggable" src="../images/games/set1 2.png" alt="">
+            <img class="set3 draggable" src="../images/games/set3 1.png" alt="">
+            <img class="Subtract-1 draggable" src="../images/games/Subtract-1.png" alt="">
+            <img class="set1-1 draggable" src="../images/games/set1 1.png" alt="">
+            <img class="Subtract draggable" src="../images/games/Subtract.png" alt="">
+        </div>
+    </div>
+    <div class="blur"></div>
+    <div class="show-popup">
+        <div class="popup">
+            <div class="mini-menu">
+                <div class="Q_Icons-Cross">
+                    <img src="../images/Q_Icons/Cross.svg" alt="">
+                </div>
+            </div>
+            <h2 class="h2-desktop">Ура!</h2>
+            <p class="p-desktop">Спасибо, что помог мне собрать вещи! Теперь мы можем вместе отправиться в нежный роуд <a href="../Trips.html">трип</a>, поехали?</p>
+        </div>
+    </div>
+    <!-- футер -->
+    <div id="blue-grey" class="footer">
+        <div class="Symbol">
+            <img src="../images/Logo/Union.svg" alt="">
+        </div>
+        <div class="socials">
+            <div class="Q_Social-TG">
+                <img src="../images/Q_Social/TG.svg" alt="">
+            </div>
+            <div class="Q_Social-IG">
+                <img src="../images/Q_Social/IG.svg" alt="">
+            </div>
+            <div class="Q_Social-VK">
+                <img src="../images/Q_Social/VK.svg" alt="">
+            </div>
+            <div class="Q_Social-Dzen">
+                <img src="../images/Q_Social/Dzen.svg" alt="">
+            </div>
+        </div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+    <script>
+       $(document).ready(function() {
+        $(".draggable").draggable({
+            revert: "invalid", 
+            start: function(event, ui) {
+                $(this).show();
+            }
+        });
+
+        $(".droppable").droppable({
+            drop: function(event, ui) {
+                ui.draggable.hide();
+
+                if ($(".draggable:visible").length === 0) {
+                    $(".show-popup").show();
+                    $(".blur").show(); 
+                }
+            }
+        });
+
+        $(".Q_Icons-Cross").click(function(){
+        $(".show-popup").hide(),
+        $(".blur").hide();
+  });
+    });
+    </script>
+</body>
+</html>

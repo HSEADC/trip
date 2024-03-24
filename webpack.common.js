@@ -110,6 +110,13 @@ module.exports = {
       // chunks: ["/wheel"]
     }),
 
+    // В пути -> Собираемся в трип
+    new HtmlWebpackPlugin({
+      template: './src/games/get-ready.html',
+      filename: './games/get-ready.html',
+      // chunks: ["/wheel"]
+    }),
+
     // Index
     new HtmlWebpackPlugin({
       template: './src/index.html',
