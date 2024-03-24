@@ -280,6 +280,18 @@ module.exports = {
   filename: './articles/children.html'
 }),
 
+ // Article -> Chem
+ new HtmlWebpackPlugin({
+  template: './src/articles/chem.html',
+  filename: './articles/chem.html'
+}),
+
+ // Article -> Apps
+ new HtmlWebpackPlugin({
+  template: './src/articles/apps.html',
+  filename: './articles/apps.html'
+}),
+
     // Partials
     new HtmlWebpackPartialsPlugin([
       {
