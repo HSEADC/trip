@@ -304,6 +304,12 @@ module.exports = {
   filename: './articles/winter.html'
 }),
 
+ // Article -> Vse
+ new HtmlWebpackPlugin({
+  template: './src/articles/vse.html',
+  filename: './articles/vse.html'
+}),
+
     // Partials
     new HtmlWebpackPartialsPlugin([
       {
