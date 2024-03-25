@@ -440,10 +440,3 @@ span {
 .answers:checked + label::before {
     background-color: var(--purple); 
 }
-.body {
-    height: 100%;
-}
-.footer {
-    flex-shrink: 0;
-
-}
