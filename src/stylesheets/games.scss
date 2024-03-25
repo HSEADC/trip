@@ -349,3 +349,101 @@ span {
 .mini-menu .Q_Icons-Cross {
     cursor: pointer;
 }
+
+
+// тестик про города (возможно все тестики )
+
+.main-container, .container {
+    margin: auto;
+    display: flex;
+    width: 98.89vw;
+    height: auto;
+    padding: 2.78vw 2.78vw 4.44vw 2.78vw;
+    background-color: var(--white);
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    box-sizing: border-box;
+    margin-top: 0.56vw;
+    border-radius: 2.22vw; 
+    margin-bottom: 1.67vw;
+
+}
+.container {
+    display: none;
+}
+.greeting, .task {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 2.78vw;
+    width: 62.50vw;
+}
+.greeting button, .task button, .learn-more button {
+    width: 10.69vw;
+    height: 3.33vw;
+    color: var(--white);
+    background-color: var(--purple);
+    border: 0;
+    align-items: center;
+    justify-content: center;
+    padding-left: 0;
+    cursor: pointer;
+}
+.congrats, .description {
+    font-family: MabryPro;
+    letter-spacing: -0.01em;
+    text-align: left;
+}
+.congrats {
+    font-weight: 500;
+    font-size: 3.33vw;
+    line-height: 2.99vw;
+}
+
+.description, .learn-more p {
+    font-family: MabryPro;
+    margin-top: 1.67vw;
+    font-weight: 400;
+    font-size: 1.25vw;
+    line-height: 1.6vw;
+}
+.learn-more button {
+    margin-top: 1.67vw;
+
+}
+.answers {
+    display: none;
+}
+
+.answers + label {
+    position: relative;
+    padding-left: 2.5vw;
+    cursor: pointer;
+    
+}
+
+.answers + label::before {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 1.53vw;
+    height: 1.53vw;
+    border: 0.07vw solid var(--purple);
+    border-radius: 50%;
+    transition: all 0.3s ease;
+}
+
+
+.answers:checked + label::before {
+    background-color: var(--purple); 
+}
+.body {
+    height: 100%;
+}
+.footer {
+    flex-shrink: 0;
+
+}
