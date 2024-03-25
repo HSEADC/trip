@@ -1,22 +1,339 @@
-@media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
-    // настройка основных моментов 
+@media only screen and (max-width: 480px) {
+    /* Настройка основных моментов */
+    body {
+        overflow-x: hidden;
+        width: 100vw;
+        height: 100%;
+    }
     .menu-mobile {
         display: flex;
+        padding: 4.27vw 5.33vw 5.33vw 5.33vw;
+        border-radius: 0 0 5.33vw 5.33vw;
+        gap: 1.60vw;
     }
     .menu {
         display: none;
     }
-    .h1-desktop {
-        font-size: 4.44vw;
-        line-height: 3.96vw;
+    .Symbol, .Symbol img {
+        width: 8.53vw;
+        height: 8.53vw;
+    }
+    .A_Search {
+        padding: 1.87vw 39.47vw 1.33vw 2.67vw;
+        gap: 1.87vw;
+        border-radius: 15.73vw;
+    }
+    .Q_Icons-Burger, .Q_Icons-Cross, .Q_Icons-Search, .Q_Icons-Plus, .Q_Social-TG, .Q_Social-IG, .Q_Social-VK, .Q_Social-Dzen, .Q_Icons-Burger img, .Q_Icons-Cross img, .Q_Icons-Search img, .Q_Icons-Plus img, .Q_Social-TG img, .Q_Social-IG img, .Q_Social-VK img, .Q_Social-Dzen img {
+        width: 7.47vw;
+        height: 7.47vw;
     }
 
-    // главная
+    .h1-desktop {
+        font-size: 12.80vw;
+        line-height: 100%;
+    }
+    .subtitle-desktop {
+        font-size: 4.27vw;
+        line-height: 120%;
+    }
+    .p-desktop {
+        font-size: 4.27vw;
+        line-height: 110%;
+    }
 
+    .h2-desktop {
+        font-size: 8.53vw;
+        line-height: 100%
+    }
+
+    .A_Tag, .A_Button {
+        width: 21.60vw;
+        height: auto;
+        padding: 3.20vw 4.27vw;
+        gap: 2.13vw;
+        border-radius: 26.67vw;
+    }
+    
+    .A_Menu-Routes, .A_Menu-Advice, .A_Menu-Way {
+        gap: 5.33vw;
+    }
+    .Q_Menu-Routes, .Q_Menu-Adviсe, .Q_Menu-Way {
+        width: 12.80vw;
+        height: 12.80vw;
+        border-radius: 3.20vw;
+
+    }
+    .Q_Menu-Routes img {
+        width: 17.33vw;
+        height: 17.33vw;
+        margin-left: -1.7vw;
+    }
+    .Q_Menu-Adviсe img {
+        width: 14.40vw;
+        height: 14.40vw;
+        margin-top: 1.2vw;
+    }
+    .Q_Menu-Way img{
+        width: 21.87vw;
+        height: 20vw;
+        margin-top: -1.8vw;
+        margin-left: -3.8vw;
+    }
+
+    .Q_Sound {
+        width: 50vw;
+        height: 50vw;
+    }
+    .squareCard img {
+        width: 50vw;
+        height: 50vw;
+    }
+
+    .icons-mobile {
+        gap: 5.33vw;
+    }
+    .mobile-popupMenu {
+        padding: 4.27vw 5.33vw 5.33vw 5.33vw;
+        border-radius: 0 0 5.33vw 5.33vw;
+    }
+    .footer {
+        align-items: center;
+        padding: 4.27vw 5.33vw 5.33vw 5.33vw;
+        border-radius: 5.33vw 5.33vw 0 0; 
+    }
+    .footer .socials{
+        display: none;
+    }
+    /* Главная */
     .beginning-mobile {
         display: flex;
+        margin-top: 9.60vw;
+        padding-left: 5.33vw;
+        padding-right: 5.33vw;
+        gap: 4.27vw;
     }
     .beginning {
         display: none;
     }
+    .shrink {
+        width: 85.33vw;
+    }
+    .twoCards, .fourCards {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 4.27vw;
+    }
+
+    .fourCards {
+        margin-top: 4.27vw;
+    }    
+
+    .more img {
+        width: 1.87vw;
+    }
+
+    .otstup {
+        margin-top: 6.40vw;
+    }
+
+    .trips {
+        margin-top: 18.67vw;
+        padding-left: 5.33vw;
+        padding-right: 5.33vw;
+    }
+
+
+    .Long-card, .squareCard, .squareCard-long {
+        width: 89.6vw;
+        height: 89.6vw;
+        border-radius: 8.53vw;
+    }
+    
+    .description-card, .desc-square-card, .desc-square-card-test {
+        width: 85.33vw;
+        height: auto;
+        border-radius: 6.40vw;
+        padding: 6.40vw;
+        gap: 2.13vw;
+        margin-bottom: 2.4vw;
+    }
+    .description-card .subtitle-desktop, .desc-square-card .subtitle-desktop, .desc-square-card-test .subtitle-desktop {
+        font-size: 6.40vw;
+        font-weight: 500;
+        line-height: 100%;
+    }
+    .squareCard-long .desc-square-card-test {
+        margin-left: 0;
+    }
+    .rasstoyanie {
+        gap: 4.27vw;
+    }
+    
+    .desc-square-card-test {
+        height: 84.80vw;
+        gap: 29.5vw;
+    }
+
+    .mob {
+        width: 89.6vw;
+        height: 179.20vw;
+        border-radius: 8.53vw;
+        flex-direction: column;
+        justify-content: start;
+        background-image: url(./images/cards/mobile-wheel.svg);
+        background-size: cover;
+    }
+
+    .mob .desc-square-card {
+        width: 85.33vw;
+        height: 85.33vw;
+        border-radius: 6.40vw;
+        padding: 6.40vw;
+
+    }
+
+    .squareCard-long {
+        flex-direction: column;
+        margin-top: 2vw;
+    }
+
+
+    .form {
+        margin-top: 28.33vw;
+        width: 89.6vw;
+        height: 179.20vw;
+        border-radius: 8.53vw;
+        flex-direction: column;
+        justify-content: end;
+        padding-left: 5.33vw;
+        padding-right: 5.33vw;
+    }
+    .forma-back {
+        font-size: 50.93vw;
+        line-height: 80%;
+    }
+    .subscribe {
+        width: 85.33vw;
+        height: 85.33vw;
+        border-radius: 6.40vw;
+        margin-bottom: 2vw;
+        justify-content: start;
+        align-items: center;
+        flex-direction: column;
+        padding: 6.40vw;
+    }
+    .text-adv {
+        width: auto;
+        gap: 2.13vw;
+    }
+    .text-adv p{
+        font-size: 4.80vw;
+        line-height: 120%;
+        opacity: 0.3;
+    }
+    .text-adv h2{
+        font-size: 8.53vw;
+        font-weight: 500;
+        line-height: 100%;
+    }
+
+    button p {
+        font-size: 16px;
+        line-height: 110%;
+        text-align: center;
+    }
+    .name input, .email input, button {
+        width: 72.53vw;
+        height: 10.67vw;
+        padding-left: 4.27vw;
+        font-size: 16px;
+        line-height: 110%;
+        border-radius: 16vw;
+    }
+
+    #my-form {
+        gap: 4.27vw;
+    }
+
+    .overlap {
+        top: 2458vw;
+        margin-left: 11.42vw;
+        position: absolute;
+        z-index: 1;
+    }
+    .character img{
+        width: 77vw;
+
+    }
+
+    .button-png, .pin {
+        display: none;
+    }
+
+    .big-socials {
+        width: 100vw;
+        flex-direction: column;
+        overflow-x: hidden;
+        margin-top: -10vw;
+    }
+
+    
+    .Vk-social {
+        width: 87.73vw;
+        height: 43.73vw;
+        transform: rotate(-37deg);
+        margin-left: 19vw;
+        margin-top: 22vw;
+    }
+    .Vk-social img {
+        width: 36vw;
+    }
+    .Dzen-social::after {
+        width: 41vw;
+        height: 40vw;
+        border-left: 20vw solid var(--white);
+        border-right: 20vw solid #FFBD18;
+        border-top: 20vw solid var(--white);
+        border-bottom: 20vw solid #FFBD18;
+        border-radius: 40vw 145vw 124vw 150vw;
+        transform: rotate(52deg);
+    }
+    .Dzen-social:hover::after {
+        border-right: 20vw solid var(--purple);
+        border-bottom: 20vw solid var(--purple);
+    }
+    .Dzen-social {
+        width: 41vw;
+        height: 40vw;
+        margin-left: 22vw;
+        margin-top: 0vw;
+    }
+
+    .Dzen-social img {
+        width: 25.87vw;
+        margin-bottom: 3vw;
+        margin-left: -17vw;
+        transform: rotate(21deg);
+
+    }
+    .TG-social {
+        width: 93.33vw;
+        height: 27.47vw;
+        margin-left: 3vw;
+        transform: rotate(-25.482deg);
+        margin-top: 3.5vw;
+    }
+    .TG-social img {
+        width: 11.20vw;
+    }
+
+    .Nelz-social {
+        width: 32vw;
+        height: 32vw;
+        border-radius: 32vw;
+        margin-left: 65vw;
+        margin-top: -12vw;
+    }
+
 }
