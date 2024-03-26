@@ -316,6 +316,12 @@ module.exports = {
   filename: './articles/extrim.html'
 }),
 
+ // Article -> Shopping
+ new HtmlWebpackPlugin({
+  template: './src/articles/shopping.html',
+  filename: './articles/shopping.html'
+}),
+
     // Partials
     new HtmlWebpackPartialsPlugin([
       {
