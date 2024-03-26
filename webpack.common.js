@@ -328,6 +328,14 @@ module.exports = {
   filename: './articles/festivali.html'
 }),
 
+ // Article -> Base
+ new HtmlWebpackPlugin({
+  template: './src/articles/base.html',
+  filename: './articles/base.html'
+}),
+
+
+
     // Partials
     new HtmlWebpackPartialsPlugin([
       {
