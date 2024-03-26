@@ -322,6 +322,12 @@ module.exports = {
   filename: './articles/shopping.html'
 }),
 
+ // Article -> Festivali
+ new HtmlWebpackPlugin({
+  template: './src/articles/festivali.html',
+  filename: './articles/festivali.html'
+}),
+
     // Partials
     new HtmlWebpackPartialsPlugin([
       {
