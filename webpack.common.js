@@ -310,6 +310,12 @@ module.exports = {
   filename: './articles/vse.html'
 }),
 
+ // Article -> Extrim
+ new HtmlWebpackPlugin({
+  template: './src/articles/extrim.html',
+  filename: './articles/extrim.html'
+}),
+
     // Partials
     new HtmlWebpackPartialsPlugin([
       {
