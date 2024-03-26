@@ -334,6 +334,11 @@ module.exports = {
   filename: './articles/base.html'
 }),
 
+ // Article -> Summer
+ new HtmlWebpackPlugin({
+  template: './src/articles/summer.html',
+  filename: './articles/summer.html'
+}),
 
 
     // Partials
