@@ -35,7 +35,5 @@
     "webpack-merge": "^5.7.3"
   },
   "main": "index.js",
-  "wheel": "wheel.js",
-  "test": "jstest.js",
   "repository": "git@github.com:HSEADC/B22DZ08-08.git"
 }

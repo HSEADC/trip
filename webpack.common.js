@@ -10,7 +10,7 @@ module.exports = {
   entry: {
     index: './src/index.js',
     // jstest: './src/jstest.js',
-    // wheel: './src/wheel.js',
+    wheel: './src/wheel.js',
   },
   output: {
     filename: '[name].[contenthash].js',
@@ -107,7 +107,7 @@ module.exports = {
     new HtmlWebpackPlugin({
       template: './src/games/wheel.html',
       filename: './games/wheel.html',
-      // chunks: ["/wheel"]
+      chunks: ["index", "wheel"]
     }),
 
     // В пути -> Собираемся в трип
@@ -135,11 +135,6 @@ module.exports = {
       filename: './Advices.html'
     }),
 
-    // Советы ->
-    new HtmlWebpackPlugin({
-      template: './src/advices/dont-forget.html',
-      filename: './advices/dont-forget.html'
-    }),
 
     // В пути
     new HtmlWebpackPlugin({

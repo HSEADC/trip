@@ -13,7 +13,7 @@
             </div>
         </a>
         <div class="icons">
-            <a href="../Trips.html">
+            <a href="Trips.html">
                 <div class="A_Menu-Routes">
                     <div class="Q_Menu-Routes">
                         <img src="../images/Q_Menu/3dicons.png" alt="">
@@ -45,6 +45,60 @@
             <p class="p-desktop">Поиск</p>
         </div>
     </div>
+    <div class="menu-mobile">
+        <a href="../index.html">
+            <div class="Symbol">
+                <img src="../images/Logo/Union.svg" alt="">
+            </div>
+        </a>
+        <div class="A_Search">
+            <div class="Q_Icons-Search">
+                <img src="../images/Q_Icons/Search.svg" alt="">
+            </div>
+            <p class="p-desktop">Поиск</p>
+        </div>
+        <div class="Q_Icons-Burger">
+            <img src="../images/Q_Icons/Burger.svg" alt="">
+        </div>
+    </div>
+    <div class="blur-mobile"></div>
+    <div class="none">
+        <div class="mobile-popupMenu">
+            <div class="icons-mobile">
+                <div class="burger-menu">
+                    <a href="../Trips.html">
+                        <div class="A_Menu-Routes">
+                            <div class="Q_Menu-Routes">
+                                <img src="../images/Q_Menu/3dicons.png" alt="">
+                            </div>
+                            <p class="p-desktop">Маршруты</p>
+                        </div>
+                    </a>
+                    <div class="mini-menu">
+                        <div class="Q_Icons-Cross close">
+                            <img src="../images/Q_Icons/Cross.svg" alt="">
+                        </div>
+                    </div>
+                </div>
+                <a href="../Advices.html">
+                    <div class="A_Menu-Advice">
+                            <div class="Q_Menu-Adviсe">
+                            <img src="../images/Q_Menu/road-bag 1.png" alt="">
+                            </div>
+                            <p class="p-desktop">Советы</p>
+                    </div>
+                </a>
+                <a href="../games.html">
+                    <div class="A_Menu-Way">
+                        <div class="Q_Menu-Way">
+                            <img src="../images/Q_Menu/pin 1.png" alt="">
+                        </div>
+                        <p class="p-desktop">В пути</p>
+                    </div>
+                </a>
+            </div>
+        </div>
+    </div>
     <div class="heading">
         <h2 class="h2-desktop">Колесо фортуны</h2>
         <div class="mainbox" id="mainbox">
@@ -69,9 +123,13 @@
             <button class="spin" onclick="spinWheel()"><p class="p-desktop">Крутить</p></button>
         </div>
     </div>
+
     <div id="blue-grey" class="footer">
         <div class="Symbol">
             <img src="../images/Logo/Union.svg" alt="">
+        </div>
+        <div class="hse adc">
+            <p class="p-desktop">HSE ADC</p>
         </div>
         <div class="socials">
             <div class="Q_Social-TG">
@@ -88,70 +146,7 @@
             </div>
         </div>
     </div>
-    <script>
-    function shuffle(array) {
-        var currentIndex = array.length,
-            randomIndex;
-    
-        while (0 != currentIndex) {
-            randomIndex = Math.floor(Math.random() * currentIndex);
-            currentIndex--;
-            [array[currentIndex], array[randomIndex]] = [
-                array[randomIndex],
-                array[currentIndex],
-            ];
-        }
-        return array;
-    }
-    
-    let currentAngle = 0;
-    let results = []; 
-    
-    function spinWheel() {
-        const box = document.getElementById("box");
-        const element = document.getElementById("mainbox");
-        let SelectedItem = "";
-    
-        let Klin = shuffle([1890, 2250, 2610]);
-        let Tarusa = shuffle([1890, 2210, 2570]);
-        let Podolsk = shuffle([1770, 2130, 2490]);
-        let Shatura = shuffle([1910, 2170, 2530]);
-        let Ivanovo = shuffle([1750, 2110, 2470]);
-        let Kostroma = shuffle([1750, 2110, 2470]);
-
-    
-        let newResults = shuffle([
-            Klin[0],
-            Tarusa[0],
-            Podolsk[0],
-            Shatura[0],
-            Ivanovo[0],
-            Kostroma[0],
-        ]);
-    
-        results = results.concat(newResults); 
-        if (Klin.includes(newResults[0])) SelectedItem = "Клин";
-        if (Tarusa.includes(newResults[0])) SelectedItem = "Таруса";
-        if (Podolsk.includes(newResults[0])) SelectedItem = "Подольск";
-        if (Shatura.includes(newResults[0])) SelectedItem = "Шатура";
-        if (Ivanovo.includes(newResults[0])) SelectedItem = "Иваново";
-        if (Kostroma.includes(newResults[0])) SelectedItem = "Кострома";
-
-    
-        let rotationAngle = currentAngle + newResults[0]; 
-    
-        box.style.setProperty("transition", "all ease 5s");
-        box.style.transform = "rotate(" + rotationAngle + "deg)";
-        element.classList.remove("animate");
-        setTimeout(function () {
-            element.classList.add("animate");
-            setTimeout(function () {
-                // alert
-            });
-        }, 100); 
-    
-        currentAngle = rotationAngle; 
-    }
-    </script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
 </body>
 </html>

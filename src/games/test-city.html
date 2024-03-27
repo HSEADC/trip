@@ -172,7 +172,8 @@ function getCookie(name) {
 	"(?:^|; )" + name.replace(/([\.$?*|{}\(\)\[\]\\\/\+^])/g, '\\$1') + "=([^;]*)"
   ));
   return matches ? decodeURIComponent(matches[1]) : undefined;
-}
+} 
+// возможно куки не нужны
 
 function setCookie(name, value, path = "/question", options = {}) {
 
