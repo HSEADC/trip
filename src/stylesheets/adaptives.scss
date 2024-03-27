@@ -142,6 +142,9 @@
         padding-left: 5.33vw;
         padding-right: 5.33vw;
     }
+    .to-top {
+        margin-top: 3.67vw;
+    }
 
 
     .Long-card, .squareCard, .squareCard-long {
@@ -337,7 +340,7 @@
     }
 
 
-    .wheelgames .footer {
+    .wheelgames .footer, .get-ready .footer {
         position: absolute;
         bottom: 0;
         width: 89.4vw;
@@ -371,11 +374,75 @@
     .wheelgames p {
         font-size: 3.27vw;
     }
+    .pers {
+        width: 76.81vw;
+    }
+    .pair {
+        margin-left: 7vw;
+    }
+    .little-pers {
+        width: 54.19vw;
+        margin-left: 44vw;
+        margin-top: -30vw;
+    }
 
+    .circles {
+        width: 31.14vw;
+        margin-left: -51vw;
+        margin-top: 24vw;
+    }
 
+    .pin1 {
+        width: 48.68vw;
+        margin-left: -56vw;
+        margin-top: 8vw;
+    }
 
+    .set1 {
+        width: 24.76vw;
+        margin-left: 13vw;
+    }
 
+    .set2 {
+        width: 24.31vw;
+        margin-left: 25vw;
+        margin-top: 16vw;
+    }
 
+    .set3-3 {
+        width: 42.07vw;
+        margin-top: 73vw;
+        margin-left: -46vw;
+    }
 
+    .set1-2 {
+        width: 38.71vw;
+        margin-left: -51vw;
+        margin-top: 42vw;
+    }
+
+    .set3 {
+        width: 15.03vw;
+        margin-left: -11vw;
+        margin-top: 84vw;
+    }
+
+    .Subtract-1 {
+        width: 17.99vw;
+        margin-left: 15vw;
+        margin-top: 21vw;
+    }
+
+    .set1-1 {
+        width: 21.04vw;
+        margin-left: 6vw;
+        margin-top: 83vw;
+    }
+
+    .Subtract {
+        width: 25.4vw;
+        margin-left: 21vw;
+        margin-top: 20vw;
+    }
 
 }
