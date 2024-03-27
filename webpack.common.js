@@ -340,6 +340,12 @@ module.exports = {
   filename: './articles/summer.html'
 }),
 
+ // Article -> Moskva
+ new HtmlWebpackPlugin({
+  template: './src/articles/moskva.html',
+  filename: './articles/moskva.html'
+}),
+
 
     // Partials
     new HtmlWebpackPartialsPlugin([
