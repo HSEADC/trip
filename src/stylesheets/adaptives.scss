@@ -336,4 +336,46 @@
         margin-top: -12vw;
     }
 
+
+    .wheelgames .footer {
+        position: absolute;
+        bottom: 0;
+        width: 89.4vw;
+    }
+
+    #blue-grey1 {
+        background-color: var(--white);
+    }
+
+    .mainbox {
+        margin-top: 4vw;
+        width: 94.93vw;
+        height: 94.93vw;
+    }
+    .mainbox::after {
+        top: -3%;
+        left: 44%;
+        background-size: 10.13vw;
+    }
+    .heading {
+        overflow: hidden;
+    }
+    .spin {
+        width: 18vw;
+        height: 18vw;
+        z-index: 0;
+    }
+    .spin p {
+        margin-left: -2vw;
+    }
+    .wheelgames p {
+        font-size: 3.27vw;
+    }
+
+
+
+
+
+
+
 }

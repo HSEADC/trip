@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Колесо фортуны</title>
 </head>
-<body id="blue-grey" class="wheelgames">
+<body id="blue-grey1" class="wheelgames">
     <div class="menu">
         <a href="../index.html">
             <div class="Symbol">
@@ -13,7 +13,7 @@
             </div>
         </a>
         <div class="icons">
-            <a href="Trips.html">
+            <a href="../Trips.html">
                 <div class="A_Menu-Routes">
                     <div class="Q_Menu-Routes">
                         <img src="../images/Q_Menu/3dicons.png" alt="">
@@ -123,8 +123,7 @@
             <button class="spin" onclick="spinWheel()"><p class="p-desktop">Крутить</p></button>
         </div>
     </div>
-
-    <div id="blue-grey" class="footer">
+    <div class="footer">
         <div class="Symbol">
             <img src="../images/Logo/Union.svg" alt="">
         </div>
@@ -148,5 +147,70 @@
     </div>
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
     <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+    <script>
+    function shuffle(array) {
+        var currentIndex = array.length,
+            randomIndex;
+    
+        while (0 != currentIndex) {
+            randomIndex = Math.floor(Math.random() * currentIndex);
+            currentIndex--;
+            [array[currentIndex], array[randomIndex]] = [
+                array[randomIndex],
+                array[currentIndex],
+            ];
+        }
+        return array;
+    }
+    
+    let currentAngle = 0;
+    let results = []; 
+    
+    function spinWheel() {
+        const box = document.getElementById("box");
+        const element = document.getElementById("mainbox");
+        let SelectedItem = "";
+    
+        let Klin = shuffle([1890, 2250, 2610]);
+        let Tarusa = shuffle([1890, 2210, 2570]);
+        let Podolsk = shuffle([1770, 2130, 2490]);
+        let Shatura = shuffle([1910, 2170, 2530]);
+        let Ivanovo = shuffle([1750, 2110, 2470]);
+        let Kostroma = shuffle([1750, 2110, 2470]);
+
+    
+        let newResults = shuffle([
+            Klin[0],
+            Tarusa[0],
+            Podolsk[0],
+            Shatura[0],
+            Ivanovo[0],
+            Kostroma[0],
+        ]);
+    
+        results = results.concat(newResults); 
+        if (Klin.includes(newResults[0])) SelectedItem = "Клин";
+        if (Tarusa.includes(newResults[0])) SelectedItem = "Таруса";
+        if (Podolsk.includes(newResults[0])) SelectedItem = "Подольск";
+        if (Shatura.includes(newResults[0])) SelectedItem = "Шатура";
+        if (Ivanovo.includes(newResults[0])) SelectedItem = "Иваново";
+        if (Kostroma.includes(newResults[0])) SelectedItem = "Кострома";
+
+    
+        let rotationAngle = currentAngle + newResults[0]; 
+    
+        box.style.setProperty("transition", "all ease 5s");
+        box.style.transform = "rotate(" + rotationAngle + "deg)";
+        element.classList.remove("animate");
+        setTimeout(function () {
+            element.classList.add("animate");
+            setTimeout(function () {
+                // alert
+            });
+        }, 100); 
+    
+        currentAngle = rotationAngle; 
+    }
+    </script>
 </body>
 </html>
