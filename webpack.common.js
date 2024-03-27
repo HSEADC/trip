@@ -346,6 +346,11 @@ module.exports = {
   filename: './articles/moskva.html'
 }),
 
+ // Article -> Mistica
+ new HtmlWebpackPlugin({
+  template: './src/articles/mistic.html',
+  filename: './articles/mistic.html'
+}),
 
     // Partials
     new HtmlWebpackPartialsPlugin([
