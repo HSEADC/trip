@@ -36,7 +36,7 @@
         font-size: 4.27vw;
         line-height: 120%;
     }
-    .p-desktop {
+    .p-desktop, .description, .learn-more p {
         font-size: 4.27vw;
         line-height: 110%;
     }
@@ -48,7 +48,7 @@
 
     .A_Tag, .A_Button {
         width: 21.60vw;
-        height: auto;
+        height: 10vw;
         padding: 3.20vw 4.27vw;
         gap: 2.13vw;
         border-radius: 26.67vw;
@@ -340,7 +340,7 @@
     }
 
 
-    .wheelgames .footer, .get-ready .footer {
+    .wheelgames .footer, .get-ready .footer, .test .footer {
         position: absolute;
         bottom: 0;
         width: 89.4vw;
@@ -443,6 +443,50 @@
         width: 25.4vw;
         margin-left: 21vw;
         margin-top: 20vw;
+    }
+
+    .main-container, .container {
+        width: 95.73vw;
+        border-radius: 8.53vw;
+        margin-top: 2.13vw;
+        padding: 6.40vw 6.40vw 8.53vw 6.40vw;
+        align-items: start;
+    }
+
+    .greeting {
+        width: 84.5vw;
+        gap: 6.40vw;
+    }
+    .task {
+        width: 84.5vw;
+        gap: 3.20vw;
+    }
+
+    .greeting button, .task button, .learn-more button {
+        width: 82.93vw;
+        height: 12.80vw;
+    }
+
+    .h3-desktop, .congrats {
+        font-size: 6.40vw;
+        font-weight: 500;
+        line-height: 100%;
+    }
+
+    .answers + label::before {
+        width: 5.87vw;
+        height: 5.87vw;
+    }
+
+    #answers {
+        margin-bottom: 3.20vw;
+    }
+
+    .answers + label {
+        display: block;
+        padding-left: 9.20vw;
+        margin-bottom: 2vw;
+
     }
 
 }

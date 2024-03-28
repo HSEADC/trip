@@ -9,7 +9,7 @@ const path = require('path')
 module.exports = {
   entry: {
     index: './src/index.js',
-    // jstest: './src/jstest.js',
+    jstest: './src/jstest.js',
     wheel: './src/wheel.js',
     sbor: './src/sbor.js'
   },
@@ -101,7 +101,7 @@ module.exports = {
     new HtmlWebpackPlugin({
       template: './src/games/test-city.html',
       filename: './games/test-city.html',
-      // chunks: ["/test-city"]
+      chunks: ["index", "jstest"]
     }),
     
     // В пути -> Триповское колесо
