@@ -97,11 +97,27 @@ module.exports = {
       chunkFilename: '[id].[contenthash].css'
     }),
 
-    // Тесты
+    // Тест на город подмосковья
     new HtmlWebpackPlugin({
       template: './src/games/test-city.html',
       filename: './games/test-city.html',
       chunks: ["index", "jstest"]
+    }),
+
+    // Тест на тип триповца
+    new HtmlWebpackPlugin({
+      template: './src/games/tripovez.html',
+      filename: './games/tripovez.html',
+    }),
+    // Тест на тип тип погоды
+    new HtmlWebpackPlugin({
+      template: './src/games/weather-trip.html',
+      filename: './games/weather-trip.html',
+    }),
+     // Тест на новости
+     new HtmlWebpackPlugin({
+      template: './src/games/news-tes.html',
+      filename: './games/news-tes.html',
     }),
     
     // В пути -> Триповское колесо
