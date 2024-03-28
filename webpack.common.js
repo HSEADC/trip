@@ -161,7 +161,239 @@ module.exports = {
       filename: './articles/blogers.html'
     }),
 
+    // Article -> Nizhny
+    new HtmlWebpackPlugin({
+      template: './src/articles/nizhny.html',
+      filename: './articles/nizhny.html'
+    }),
 
+ // Article -> Sergiev
+ new HtmlWebpackPlugin({
+  template: './src/articles/sergiev.html',
+  filename: './articles/sergiev.html'
+}),
+
+ // Article -> Suzdal
+ new HtmlWebpackPlugin({
+  template: './src/articles/suzdal.html',
+  filename: './articles/suzdal.html'
+}),
+
+ // Article -> Klin
+ new HtmlWebpackPlugin({
+  template: './src/articles/klin.html',
+  filename: './articles/klin.html'
+}),
+
+ // Article -> Spas
+ new HtmlWebpackPlugin({
+  template: './src/articles/spas.html',
+  filename: './articles/spas.html'
+}),
+
+ // Article -> Vologda
+ new HtmlWebpackPlugin({
+  template: './src/articles/vologda.html',
+  filename: './articles/vologda.html'
+}),
+
+ // Article -> Karelia
+ new HtmlWebpackPlugin({
+  template: './src/articles/karelia.html',
+  filename: './articles/karelia.html'
+}),
+
+ // Article -> Ryzan
+ new HtmlWebpackPlugin({
+  template: './src/articles/ryzan.html',
+  filename: './articles/ryzan.html'
+}),
+
+ // Article -> Podolsk
+ new HtmlWebpackPlugin({
+  template: './src/articles/podolsk.html',
+  filename: './articles/podolsk.html'
+}),
+
+ // Article -> Shatura
+ new HtmlWebpackPlugin({
+  template: './src/articles/shatura.html',
+  filename: './articles/shatura.html'
+}),
+
+ // Article -> Kostroma
+ new HtmlWebpackPlugin({
+  template: './src/articles/kostroma.html',
+  filename: './articles/kostroma.html'
+}),
+
+ // Article -> Ivanovo
+ new HtmlWebpackPlugin({
+  template: './src/articles/ivanovo.html',
+  filename: './articles/ivanovo.html'
+}),
+
+ // Article -> Kolomna
+ new HtmlWebpackPlugin({
+  template: './src/articles/kolomna.html',
+  filename: './articles/kolomna.html'
+}),
+
+ // Article -> Zelenograd
+ new HtmlWebpackPlugin({
+  template: './src/articles/zelenograd.html',
+  filename: './articles/zelenograd.html'
+}),
+
+ // Article -> Tula
+ new HtmlWebpackPlugin({
+  template: './src/articles/tula.html',
+  filename: './articles/tula.html'
+}),
+
+ // Article -> Tver
+ new HtmlWebpackPlugin({
+  template: './src/articles/tver.html',
+  filename: './articles/tver.html'
+}),
+
+ // Article -> Vereya
+ new HtmlWebpackPlugin({
+  template: './src/articles/vereya.html',
+  filename: './articles/vereya.html'
+}),
+
+ // Article -> Zaraysk
+ new HtmlWebpackPlugin({
+  template: './src/articles/zaraysk.html',
+  filename: './articles/zaraysk.html'
+}),
+
+ // Article -> Pereslavl
+ new HtmlWebpackPlugin({
+  template: './src/articles/pereslavl.html',
+  filename: './articles/pereslavl.html'
+}),
+
+ // Article -> Voronezh
+ new HtmlWebpackPlugin({
+  template: './src/articles/voronezh.html',
+  filename: './articles/voronezh.html'
+}),
+
+ // Article -> Yaroslavl
+ new HtmlWebpackPlugin({
+  template: './src/articles/yaroslavl.html',
+  filename: './articles/yaroslavl.html'
+}),
+
+ // Article -> Piter
+ new HtmlWebpackPlugin({
+  template: './src/articles/piter.html',
+  filename: './articles/piter.html'
+}),
+
+ // Article -> Bor
+ new HtmlWebpackPlugin({
+  template: './src/articles/bor.html',
+  filename: './articles/bor.html'
+}),
+
+ // Article -> Korolev
+ new HtmlWebpackPlugin({
+  template: './src/articles/korolev.html',
+  filename: './articles/korolev.html'
+}),
+
+ // Article -> Vibrat
+ new HtmlWebpackPlugin({
+  template: './src/articles/vibrat.html',
+  filename: './articles/vibrat.html'
+}),
+
+ // Article -> Family
+ new HtmlWebpackPlugin({
+  template: './src/articles/family.html',
+  filename: './articles/family.html'
+}),
+
+ // Article -> Children
+ new HtmlWebpackPlugin({
+  template: './src/articles/children.html',
+  filename: './articles/children.html'
+}),
+
+ // Article -> Chem
+ new HtmlWebpackPlugin({
+  template: './src/articles/chem.html',
+  filename: './articles/chem.html'
+}),
+
+ // Article -> Apps
+ new HtmlWebpackPlugin({
+  template: './src/articles/apps.html',
+  filename: './articles/apps.html'
+}),
+
+ // Article -> Ideal
+ new HtmlWebpackPlugin({
+  template: './src/articles/ideal.html',
+  filename: './articles/ideal.html'
+}),
+
+ // Article -> Winter
+ new HtmlWebpackPlugin({
+  template: './src/articles/winter.html',
+  filename: './articles/winter.html'
+}),
+
+ // Article -> Vse
+ new HtmlWebpackPlugin({
+  template: './src/articles/vse.html',
+  filename: './articles/vse.html'
+}),
+
+ // Article -> Extrim
+ new HtmlWebpackPlugin({
+  template: './src/articles/extrim.html',
+  filename: './articles/extrim.html'
+}),
+
+ // Article -> Shopping
+ new HtmlWebpackPlugin({
+  template: './src/articles/shopping.html',
+  filename: './articles/shopping.html'
+}),
+
+ // Article -> Festivali
+ new HtmlWebpackPlugin({
+  template: './src/articles/festivali.html',
+  filename: './articles/festivali.html'
+}),
+
+ // Article -> Base
+ new HtmlWebpackPlugin({
+  template: './src/articles/base.html',
+  filename: './articles/base.html'
+}),
+
+ // Article -> Summer
+ new HtmlWebpackPlugin({
+  template: './src/articles/summer.html',
+  filename: './articles/summer.html'
+}),
+
+ // Article -> Moskva
+ new HtmlWebpackPlugin({
+  template: './src/articles/moskva.html',
+  filename: './articles/moskva.html'
+}),
+
+ // Article -> Mistica
+ new HtmlWebpackPlugin({
+  template: './src/articles/mistic.html',
+  filename: './articles/mistic.html'
+}),
 
     // Partials
     new HtmlWebpackPartialsPlugin([
