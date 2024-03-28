@@ -277,16 +277,16 @@ resultDiv.innerHTML = "<h1 class='congrats'>" + congrats + "</h1><p class='descr
 let learnMoreDiv = document.createElement('div');
 learnMoreDiv.classList.add('learn-more');
 
-learnMoreDiv.innerHTML = "<p>Уверены, ты&nbsp;захочешь укрепить свои знания, поэтому предлагаем тебе погрузиться в&nbsp;чудесный мир городов России и&nbsp;познакомиться поближе с&nbsp;их&nbsp;историей, интересными местами&nbsp;и, конечно&nbsp;же, с&nbsp;самыми интересными новостями</p><button id='articles-btn'>К статьям</button>";
+learnMoreDiv.innerHTML = "<p>Уверены, ты&nbsp;захочешь укрепить свои знания, поэтому предлагаем тебе погрузиться в&nbsp;чудесный мир городов России и&nbsp;познакомиться поближе с&nbsp;их&nbsp;историей, интересными местами&nbsp;и, конечно&nbsp;же, с&nbsp;самыми интересными новостями</p><a href='../Trips.html'><button id='articles-btn'>К статьям</button></a>";
 
 resultDiv.appendChild(learnMoreDiv);
 
 container.appendChild(resultDiv);
 
-let articlesBtn = document.getElementById('articles-btn');
-articlesBtn.addEventListener('click', function() {
-	window.location.href = '../trips.html';
-});
+// let articlesBtn = document.getElementById('articles-btn');
+// articlesBtn.addEventListener('click', function() {
+// 	window.location.href = '../trips.html';
+// });
 }
 
 

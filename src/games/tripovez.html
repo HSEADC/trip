@@ -280,16 +280,16 @@ resultDiv.innerHTML = "<h1 class='congrats'>" + congrats + "</h1><p class='descr
 let learnMoreDiv = document.createElement('div');
 learnMoreDiv.classList.add('learn-more');
 
-learnMoreDiv.innerHTML = "<p>Узнать, какой ты&nbsp;триповец, это конечно хорошо, но&nbsp;что на&nbsp;счёт того, чтобы узнать побольше о&nbsp;новых маршрутах для путешествий? Россия ещё совсем тобой не&nbsp;исследована, предлагаем это исправить</p><button id='articles-btn'>К статьям</button>";
+learnMoreDiv.innerHTML = "<p>Узнать, какой ты&nbsp;триповец, это конечно хорошо, но&nbsp;что на&nbsp;счёт того, чтобы узнать побольше о&nbsp;новых маршрутах для путешествий? Россия ещё совсем тобой не&nbsp;исследована, предлагаем это исправить</p><a href='../Trips.html'><button id='articles-btn'>К статьям</button></a>";
 
 resultDiv.appendChild(learnMoreDiv);
 
 container.appendChild(resultDiv);
 
-let articlesBtn = document.getElementById('articles-btn');
-articlesBtn.addEventListener('click', function() {
-	window.location.href = '../trips.html';
-});
+// let articlesBtn = document.getElementById('articles-btn');
+// articlesBtn.addEventListener('click', function() {
+// 	window.location.href = '../trips.html';
+// });
 }
 
 

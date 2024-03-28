@@ -279,16 +279,16 @@ resultDiv.innerHTML = "<h1 class='congrats'>" + congrats + "</h1><p class='descr
 let learnMoreDiv = document.createElement('div');
 learnMoreDiv.classList.add('learn-more');
 
-learnMoreDiv.innerHTML = "<p>Теперь, когда ты&nbsp;знаешь, какой из&nbsp;городов тебе больше всего подходит, почему&nbsp;бы не&nbsp;отправиться туда? Может быть, это твоя судьба и&nbsp;это место станет твоим вторым домом? Не&nbsp;узнаешь, пока не&nbsp;отправишься туда! А&nbsp;пока ты&nbsp;думаешь о&nbsp;своем трипе, предлагаем тебе прочитать наши статьи, чтобы лучше понять, куда мы&nbsp;предлагаем тебе поехать</p><button id='articles-btn'>К статьям</button>";
+learnMoreDiv.innerHTML = "<p>Теперь, когда ты&nbsp;знаешь, какой из&nbsp;городов тебе больше всего подходит, почему&nbsp;бы не&nbsp;отправиться туда? Может быть, это твоя судьба и&nbsp;это место станет твоим вторым домом? Не&nbsp;узнаешь, пока не&nbsp;отправишься туда! А&nbsp;пока ты&nbsp;думаешь о&nbsp;своем трипе, предлагаем тебе прочитать наши статьи, чтобы лучше понять, куда мы&nbsp;предлагаем тебе поехать</p><a href='../Trips.html'><button id='articles-btn'>К статьям</button></a>";
 
 resultDiv.appendChild(learnMoreDiv);
 
 container.appendChild(resultDiv);
 
-let articlesBtn = document.getElementById('articles-btn');
-articlesBtn.addEventListener('click', function() {
-	window.location.href = '../trips.html';
-});
+// let articlesBtn = document.getElementById('articles-btn');
+// articlesBtn.addEventListener('click', function() {
+// 	window.location.href = '../Trips.html';
+// });
 }
 
 
