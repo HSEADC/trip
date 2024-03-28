@@ -261,7 +261,7 @@
 
     .overlap {
         top: 2458vw;
-        margin-left: 11.42vw;
+        margin-left: 6.42vw;
         position: absolute;
         z-index: 1;
     }
@@ -487,6 +487,60 @@
         padding-left: 9.20vw;
         margin-bottom: 2vw;
 
+    }
+
+    .nn .Long-card {
+        width: 89.6vw; 
+    }
+    .nn .squareCard-long .desc-square-card-test {
+        margin-left: 0vw;
+    }
+
+    .background {
+        top: 15vw;
+    }
+    .authour {
+        display: none;
+    }
+    .Article-Name, .base {
+        justify-content: center;
+        width: 95.73vw;
+        border-radius: 8.53vw;
+        padding: 6.40vw 6.40vw 8.53vw 6.40vw;
+        margin-top: 25.20vw;
+    }
+    .base {
+        margin-top: 2.13vw;
+    }
+    #without-gap {
+        margin-top: 2.13vw;
+
+    }
+
+    .description, .paragraph {
+        width: 82.27vw;
+        gap: 6.40vw;
+    }
+    .paragraph p {
+        width: 82.27vw;
+
+    }
+    .tags .A_Tag  {
+        width: 33vw;
+    }
+    .tags #width {
+        width: 44vw;
+    }
+    .tags {
+        gap: 1.56vw;
+    }
+    .mini-menu {
+        display: none;
+    }
+    .photo {
+        width: 82.93vw;
+        height: 45.07vw;
+        border-radius: 4.27vw;
     }
 
 }
