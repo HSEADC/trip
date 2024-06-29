@@ -1,18 +1,26 @@
-.side {
-    margin-top: 15vw;
-    position: fixed;
-    width: 18vw;
-    height: 27.78vw;
+.dag {
+    background-image: url("./images/dag.png");
+    background-size: cover;
 }
-nav {
-    display: flex;
-    text-align: left;
-    flex-direction: column;
-    align-items: flex-start;
-    gap: 1.5vw;
-    padding: 0vw 3.33vw;
+.borovsk {
+    background-image: url("./images/borovsk.png");
+    background-size: cover;
 }
-nav a {
-    font-size: 1.32vw;
-    font-weight: 300;
+
+.Vert {
+    width: 20vw;
+    height: 30vw;
+    background-color: var(--purple);
+    background-image: url("./images/Symbol.png");
+    background-size: cover;
+}
+.Gor {
+    width: 76vw;
+    height: 30vw;
+    background-image: url("./images/Syb.png");
+    background-size: cover;
+}
+
+.sh {
+    padding-left: 1vw;
 }
