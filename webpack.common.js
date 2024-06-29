@@ -11,7 +11,9 @@ module.exports = {
     index: './src/index.js',
     jstest: './src/jstest.js',
     wheel: './src/wheel.js',
-    sbor: './src/sbor.js'
+    sbor: './src/sbor.js',
+    searchData: './src/searchData.js',
+    search: './src/search.jsx'
   },
   output: {
     filename: '[name].[contenthash].js',
@@ -435,6 +437,25 @@ module.exports = {
   template: './src/articles/mistic.html',
   filename: './articles/mistic.html'
 }),
+
+// Article -> Mistica
+new HtmlWebpackPlugin({
+  template: './src/articles/mistic.html',
+  filename: './articles/mistic.html'
+}),
+
+  // Article -> Mistica
+new HtmlWebpackPlugin({
+  template: './src/articles/mistic.html',
+  filename: './articles/mistic.html'
+}),
+
+  // Article -> Mistica
+new HtmlWebpackPlugin({
+  template: './src/search.html',
+  filename: './search.html'
+}),
+
 // стайлгайд
 new HtmlWebpackPlugin({
   template: './src/Styleguide.html',
