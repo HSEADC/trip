@@ -11,7 +11,8 @@ module.exports = {
     index: './src/index.js',
     jstest: './src/jstest.js',
     wheel: './src/wheel.js',
-    sbor: './src/sbor.js'
+    sbor: './src/sbor.js',
+    searchVanilla: "./src/search-vanilla.js",
   },
   output: {
     filename: '[name].[contenthash].js',
@@ -409,6 +410,12 @@ module.exports = {
  new HtmlWebpackPlugin({
   template: './src/articles/mistic.html',
   filename: './articles/mistic.html'
+}),
+
+new HtmlWebpackPlugin({
+  template: "./src/search-vanilla.html",
+  filename: "./search-vanilla.html",
+  chunks: ["searchVanilla"],
 }),
 
     // Partials
