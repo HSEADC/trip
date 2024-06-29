@@ -1,7 +1,4 @@
 import * as ReactDOM from 'react-dom/client'
-// import { createRoot } from 'react-dom/client'
-
-// import { createRoot } from 'react-dom/client'
 import './search.css'
 import React from 'react'
 import S_searchContent from './components/S_searchContent/S_searchContent.jsx'

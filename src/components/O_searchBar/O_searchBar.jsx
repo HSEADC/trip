@@ -46,7 +46,7 @@ export default class O_searchBar extends React.Component {
     if (searchInputValue.length >= 3) {
       console.log('Submit')
 
-      const separator = ':8080/'
+      const separator = ':8096/'
       //const separator = '.adc.ac/'
 
       const url = window.location.href.split(separator)[0]
