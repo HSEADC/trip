@@ -1,0 +1,20 @@
+.S_searchContent {
+  font-family: 'Phlatt Grotesk';
+  display: flex;
+  position: relative;
+  margin: 0 auto;
+  width: fit-content;
+  max-width: 1000px;
+  gap: 1rem;
+  /* margin-top: 3rem; */
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 1rem;
+
+  a,
+  a:link,
+  a:visited {
+    color: var(--black);
+    text-decoration: none;
+  }
+}

@@ -11,7 +11,9 @@ module.exports = {
     index: './src/index.js',
     jstest: './src/jstest.js',
     wheel: './src/wheel.js',
-    sbor: './src/sbor.js'
+    sbor: './src/sbor.js',
+    search: './src/search.jsx',
+    searchBar: './src/searchBar.jsx'
   },
   output: {
     filename: '[name].[contenthash].js',
@@ -137,7 +139,8 @@ module.exports = {
     // Index
     new HtmlWebpackPlugin({
       template: './src/index.html',
-      filename: './index.html'
+      filename: './index.html',
+      chunks: ['index', 'searchBar', 'search'],
     }),
 
     // маршруты
@@ -411,6 +414,13 @@ module.exports = {
   filename: './articles/mistic.html'
 }),
 
+ // Это попытка в поисковую строку
+ new HtmlWebpackPlugin({
+  template: './src/search.html',
+  filename: './search.html',
+  chunks: ['index', 'searchBar', 'search']
+}),
+
     // Partials
     new HtmlWebpackPartialsPlugin([
       {
@@ -420,8 +430,18 @@ module.exports = {
         priority: 'replace'
       }
     ])
-  ],
+  ,
+  new HtmlWebpackPartialsPlugin([
+    {
+      path: path.join(__dirname, './src/partials/header.html'),
+      location: 'header',
+      template_filename: '*',
+      priority: 'replace'
+    }
+  ])
+],
   optimization: {
     minimizer: [new CssMinimizerPlugin()]
   }
+  
 }

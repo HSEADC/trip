@@ -1,0 +1,57 @@
+.A_button {
+  width: 90px;
+  border-radius: 5px;
+  height: 32px;
+  background-color: var(--orange);
+  color: var(--black);
+  height: 32px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+
+  &.disabled {
+    background-color: lightgray;
+    color: gray;
+  }
+
+  &.resetField {
+    position: absolute;
+    right: 204px;
+    width: 30px;
+    height: 28px;
+    padding-bottom: 6.516px;
+    text-align: center;
+    padding-top: 4px;
+    background-color: lightgrey;
+    color: darkgray;
+    border-radius: 100px;
+    font-size: 22px;
+  }
+}
+
+// cursor: pointer;
+
+// &.primary {
+//   width: 100px;
+//   height: 40px;
+//   line-height: 40px;
+//   text-align: center;
+//   background-color: cornflowerblue;
+//   color: white;
+//   user-select: none;
+
+//   &.disabled {
+//     opacity: 0.4;
+//     cursor: default;
+//   }
+// }
+
+// &.resetField {
+//   width: 20px;
+//   color: black;
+//   position: absolute;
+//   font-weight: 500;
+//   top: 12px;
+//   left: 126px;
+// }
