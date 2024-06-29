@@ -109,6 +109,31 @@ module.exports = {
       template: './src/games/tripovez.html',
       filename: './games/tripovez.html',
     }),
+
+    // Тест на тип сторону света
+    new HtmlWebpackPlugin({
+      template: './src/games/svet.html',
+      filename: './games/svet.html',
+    }),
+
+    // Тест на дашу путешественницу
+    new HtmlWebpackPlugin({
+      template: './src/games/dasha.html',
+      filename: './games/dasha.html',
+    }),
+
+    // Тест на пассажира
+    new HtmlWebpackPlugin({
+      template: './src/games/pass.html',
+      filename: './games/pass.html',
+    }),
+
+    // Тест на багажник
+    new HtmlWebpackPlugin({
+      template: './src/games/baggage.html',
+      filename: './games/baggage.html',
+    }),
+    
     // Тест на тип тип погоды
     new HtmlWebpackPlugin({
       template: './src/games/weather-trip.html',
@@ -409,6 +434,11 @@ module.exports = {
  new HtmlWebpackPlugin({
   template: './src/articles/mistic.html',
   filename: './articles/mistic.html'
+}),
+// стайлгайд
+new HtmlWebpackPlugin({
+  template: './src/Styleguide.html',
+  filename: './Styleguide.html'
 }),
 
     // Partials
