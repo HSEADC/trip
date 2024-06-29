@@ -54,10 +54,10 @@ class M_SearchBar extends React.Component {
 
   renderResults = () => {
     return this.state.results.map((post) => (
-      <div key={post.id} className="post-teaser">
+      <div id='blue-grey' key={post.id} className="post-teaser">
         <a href={post.url} target="_blank" rel="noopener noreferrer">
-          <h3>{post.title}</h3>
-          <p>{post.description}</p>
+          <h3 className='subtitle-desktop'>{post.title}</h3>
+          <p className='p-desktop'>{post.description}</p>
         </a>
       </div>
     ));

@@ -429,3 +429,17 @@ button p {
 .nn .squareCard-long .desc-square-card-test {
     margin-left: 2vw;
 }
+
+#search-results {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 5vw;
+}
+
+
+.menu {
+    #search-results {
+        display: none;
+    }
+}

@@ -238,3 +238,48 @@
 #opacity {
     opacity: 0.3;
 }
+
+
+.A_Search input {
+    display: flex;
+    box-sizing: border-box;
+    align-items: center;
+    border: 0 solid var(--white);
+    font-family: MabryPro;
+    font-size: 1.25vw;
+    font-weight: 400;
+    line-height: 1.6vw;
+    letter-spacing: -0.01em;
+    text-align: left;
+}
+
+.post-teaser {
+    border-radius: 2.22vw;
+    overflow: hidden;
+    display: flex;
+    height: 23.33vw;
+    width: 47.78vw;
+    flex-direction: column;
+    align-items: center;
+    justify-content: end;
+    background-size: cover;
+    background-image: url("./images/Pic.png");
+    background-color: vars(--blue-grey);
+}
+.post-teaser a {
+    width: 46.67vw;
+    height: 9.44vw;
+    display: flex;
+    flex-direction: column;
+    gap: 0.83vw;
+    border-radius: 1.67vw;
+    background-color: var(--white);
+    padding: 1.67vw;
+    box-sizing: border-box;
+    margin-bottom: 0.56vw;
+    justify-content: space-between;
+}
+
+// .A_Search {
+//     margin-bottom: 2vw;
+// }
